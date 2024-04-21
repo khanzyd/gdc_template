@@ -7,13 +7,3 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
-.openModal .openModaldiv{
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  display: block;
-  visibility: visible;
-  z-index: 10;
-  background-color: white;
-}

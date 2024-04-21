@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useRef, LegacyRef } from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
-  type mod = LegacyRef<HTMLDivElement>;
-  // let modal: React.MutableRefObject<HTMLDivElement> = useRef();
-  const openModal = () => {};
+  const [modal,setModal]  = useState(false)
+
   return (
     <>
       <div className="bg-white h-60 px-[3%] flex justify-between items-center">
@@ -54,22 +53,51 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="bg-orange-700 h-30 px-[3%] py-[1%] flex items-center justify-center font-semibold text-lg">
+      <div className="bg-orange-700 h-30 px-[3%] flex items-center justify-center font-semibold text-lg">
         <Link href={"/"}>Home</Link>
         <Link className="ml-6" href={"/about"}>
           about
         </Link>
         <Link
-          className="ml-6 flex relative z-0"
-          onMouseEnter={() => openModal()}
+          className="ml-6 flex relative z-0 h-full py-[1%]"
+          onMouseEnter={() => setModal(true)}
+          onMouseLeave={() => setModal(false)}
           href={"/"}
         >
           Departments
-          <Image src={"/down.svg"} alt="" height={10} width={25} />
-          <div className="openModaldiv hidden" 
-          // ref={(el) => (modal = el)}
+          <Image
+            src={`${modal ? "/up.svg" : "down.svg"}`}
+            alt=""
+            height={10}
+            width={25}
+          />
+          <div
+            id="modal"
+            className={
+              `${
+                modal
+                  ? "visible z-10 bg-red-700 top-full h-fit"
+                  : "h-0 hidden overflow-hidden"
+              }` + " min-w-fit absolute "
+            }
           >
-            hello
+            <div className="bg-white min-h-fit flex flex-col gap-2 text-nowrap px-3">
+              <Link href={"/"} className="hover:underline hover:font-bold">
+                •Prosthodontics & Crown
+              </Link>
+              <Link href={"/"} className="hover:underline hover:font-bold">
+                •Periodontology
+              </Link>
+              <Link href={"/"} className="hover:underline hover:font-bold">
+                •Oral & Maxillofacial Surgery
+              </Link>
+              <Link href={"/"} className="hover:underline hover:font-bold">
+                •Conservative dentistry
+              </Link>
+              <Link href={"/"} className="hover:underline hover:font-bold">
+                •Oral medicine and dentology
+              </Link>
+            </div>
           </div>
         </Link>
         <Link className="ml-6" href={"/"}>
