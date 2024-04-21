@@ -2,13 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import Department_Modal from "./Department_Modal";
 
 const Navbar = () => {
   const [modal,setModal]  = useState(false)
 
   return (
     <>
-      <div className="bg-white h-60 px-[3%] flex justify-between items-center">
+      <div className="bg-slate-100 h-60 px-[3%] flex justify-between items-center">
         <div className="flex items-center">
           <Image src={"/gdclogo.jpeg"} alt="" height={"200"} width={"200"} />
           <div className="ml-10">
@@ -58,11 +59,10 @@ const Navbar = () => {
         <Link className="ml-6" href={"/about"}>
           about
         </Link>
-        <Link
+        <div
           className="ml-6 flex relative z-0 h-full py-[1%]"
           onMouseEnter={() => setModal(true)}
           onMouseLeave={() => setModal(false)}
-          href={"/"}
         >
           Departments
           <Image
@@ -78,28 +78,12 @@ const Navbar = () => {
                 modal
                   ? "visible z-10 bg-red-700 top-full h-fit"
                   : "h-0 hidden overflow-hidden"
-              }` + " min-w-fit absolute "
+              }` + " min-w-fit absolute shadow-xl"
             }
           >
-            <div className="bg-white min-h-fit flex flex-col gap-2 text-nowrap px-3">
-              <Link href={"/"} className="hover:underline hover:font-bold">
-                •Prosthodontics & Crown
-              </Link>
-              <Link href={"/"} className="hover:underline hover:font-bold">
-                •Periodontology
-              </Link>
-              <Link href={"/"} className="hover:underline hover:font-bold">
-                •Oral & Maxillofacial Surgery
-              </Link>
-              <Link href={"/"} className="hover:underline hover:font-bold">
-                •Conservative dentistry
-              </Link>
-              <Link href={"/"} className="hover:underline hover:font-bold">
-                •Oral medicine and dentology
-              </Link>
-            </div>
+            <Department_Modal />
           </div>
-        </Link>
+        </div>
         <Link className="ml-6" href={"/"}>
           Infrastructure
         </Link>
