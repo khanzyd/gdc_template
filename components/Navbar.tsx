@@ -9,9 +9,15 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-slate-100 h-60 px-[3%] flex justify-between items-center">
+      <div className="h-10 bg-slate-300 flex gap-2 justify-end px-6 py-5 items-center font-medium tracking-wide text-lg">
+        <p className="hover:font-semibold">Career</p>|
+        <p className="hover:font-semibold">Knowledge Resource Center</p>|
+        <p className="hover:font-semibold">Student Support</p>|
+        <p className="hover:font-semibold">ERP Login</p>
+      </div>
+      <div className="bg-slate-100 h-48 px-[3%] flex justify-between items-center">
         <div className="flex items-center">
-          <Image src={"/gdclogo.jpeg"} alt="" height={"200"} width={"200"} />
+          <Image src={"/gdclogo.jpeg"} alt="" height={"140"} width={"140"} />
           <div className="ml-10">
             <h2 className="text-4xl font-bold">
               Government Dental College &amp; Hospital,{" "}
@@ -54,7 +60,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="bg-orange-700 h-30 px-[3%] flex items-center justify-center font-semibold text-lg">
+      <div className="bg-orange-700 h-14 px-[3%] flex items-center justify-center font-semibold text-lg tracking-wide">
         <Link href={"/"}>Home</Link>
         <Link className="ml-6" href={"/about"}>
           about
@@ -76,7 +82,7 @@ const Navbar = () => {
             className={
               `${
                 modal
-                  ? "visible z-10 bg-red-700 top-full h-fit"
+                  ? "visible top-full h-fit"
                   : "h-0 hidden overflow-hidden"
               }` + " min-w-fit absolute shadow-xl"
             }
