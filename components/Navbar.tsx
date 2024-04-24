@@ -5,27 +5,59 @@ import React, { useState } from "react";
 import Department_Modal from "./Department_Modal";
 
 const Navbar = () => {
-  const [modal,setModal]  = useState(false)
+  const [modal, setModal] = useState(false);
 
   return (
     <>
-      <div className="h-10 bg-slate-300 flex gap-2 justify-end px-6 py-5 items-center font-medium tracking-wide text-lg">
-        <p className="hover:font-semibold">Career</p>|
-        <p className="hover:font-semibold">Knowledge Resource Center</p>|
-        <p className="hover:font-semibold">Student Support</p>|
-        <p className="hover:font-semibold">ERP Login</p>
+      <div className="bg-[#82261B] h-10 text-white flex gap-2 justify-end px-6 py-5 items-center font-semibold tracking-wide text-lg">
+        <p className="cursor-pointer">Career</p>|
+        <p className="cursor-pointer">Knowledge Resource Center</p>|
+        <p className="cursor-pointer">Student Support</p>|
+        <p className="cursor-pointer">ERP Login</p>
       </div>
-      <div className="bg-slate-100 h-48 px-[3%] flex justify-between items-center">
-        <div className="flex items-center">
-          <Image src={"/gdclogo.jpeg"} alt="" height={"140"} width={"140"} />
-          <div className="ml-10">
-            <h2 className="text-4xl font-bold">
-              Government Dental College &amp; Hospital,{" "}
-            </h2>
-            <p className="text-xl font-semibold">chh. sambajinagar</p>
+      <div className="bg-slate-100 h-48 px-[10%] flex justify-between items-center m-1">
+        <div className="flex items-end">
+          <Image src={"/gdclogo.jpeg"} className=" rounded-tl-full rounded-tr-full mr-2" alt="" height={"150"} width={"150"} />
+          <div className=" ">
+            <div className="ml-5 text-center mb-3">
+              <h2 className="text-4xl font-bold">
+                Government Dental College &amp; Hospital,{" "}
+              </h2>
+              <p className="text-xl font-semibold">chh. sambajinagar</p>
+            </div>
+            <div className="flex">
+              <Image
+                src={"/NAAC.png"}
+                className=" rounded-full border-4 border-slate-600 mr-2"
+                height={60}
+                width={60}
+                alt=""
+              />
+              <Image
+                src={"/ACCRED2.png"}
+                className=" rounded-full border-4 border-slate-600 mr-2"
+                height={60}
+                width={60}
+                alt=""
+              />
+              <Image
+                src={"/NAAC.png"}
+                className=" rounded-full border-4 border-slate-600 mr-2"
+                height={60}
+                width={60}
+                alt=""
+              />
+              <Image
+                src={"/ACCRED3.png"}
+                className=" rounded-full border-4 border-slate-600 bg-slate-200"
+                height={60}
+                width={60}
+                alt=""
+              />
+            </div>
           </div>
         </div>
-        <div className="flex flex-col justify-evenly bg-red-500 h-full px-2">
+        <div className="flex flex-col justify-evenly h-full px-2">
           <div>
             <h3 className="flex font-bold items-center">
               <Image
@@ -60,7 +92,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="bg-orange-700 h-14 px-[3%] flex items-center justify-center font-semibold text-lg tracking-wide">
+      <div className=" bg-[#82261B] text-white h-14 px-[3%] flex items-center justify-center font-semibold text-lg tracking-wide relative z-20">
         <Link href={"/"}>Home</Link>
         <Link className="ml-6" href={"/about"}>
           about
@@ -81,9 +113,7 @@ const Navbar = () => {
             id="modal"
             className={
               `${
-                modal
-                  ? "visible top-full h-fit"
-                  : "h-0 hidden overflow-hidden"
+                modal ? "visible top-full h-fit" : "h-0 hidden overflow-hidden"
               }` + " min-w-fit absolute shadow-xl"
             }
           >

@@ -3,21 +3,21 @@ import React from "react";
 
 const Department_Modal = () => {
   return (
-      <div className="bg-slate-300 min-h-fit flex flex-col gap-2 text-nowrap px-3 py-3 relative">
-        <Link href={"/"} className="hover:underline hover:font-bold">
-          •Prosthodontics & Crown
+      <div className="bg-[#71150A] flex flex-col gap-2 text-nowrap px-3 py-3">
+        <Link href={"/"} className="hover:underline">
+          <li>Prosthodontics & Crown</li>
         </Link>
-        <Link href={"/"} className="hover:underline hover:font-bold">
-          •Periodontology
+        <Link href={"/"} className="hover:underline">
+          <li>Periodontology</li>
         </Link>
-        <Link href={"/"} className="hover:underline hover:font-bold">
-          •Oral & Maxillofacial Surgery
+        <Link href={"/"} className="hover:underline">
+          <li>Oral & Maxillofacial Surgery</li>
         </Link>
-        <Link href={"/"} className="hover:underline hover:font-bold">
-          •Conservative dentistry
+        <Link href={"/"} className="hover:underline">
+          <li>Conservative dentistry</li>
         </Link>
-        <Link href={"/"} className="hover:underline hover:font-bold">
-          •Oral medicine and dentology
+        <Link href={"/"} className="hover:underline">
+          <li>Oral medicine and dentology</li>
         </Link>
       </div>
   );
