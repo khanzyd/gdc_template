@@ -92,10 +92,10 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className=" bg-[#82261B] text-white h-14 px-[3%] flex items-center justify-center font-semibold text-lg tracking-wide relative z-20">
+      <div className=" bg-[#82261B] text-white h-14 px-[3%] flex gap-2 items-center justify-end font-semibold text-lg tracking-wide relative z-20">
         <Link href={"/"}>Home</Link>
         <Link className="ml-6" href={"/about"}>
-          about
+          About
         </Link>
         <div
           className="ml-6 flex relative z-0 h-full py-[1%]"
@@ -121,25 +121,16 @@ const Navbar = () => {
           </div>
         </div>
         <Link className="ml-6" href={"/"}>
-          Infrastructure
+          NIRF2024
         </Link>
         <Link className="ml-6" href={"/research"}>
-          Research & Innovation
+          NEET UG(B.D.S)ADMISSION PROCESS 2023-24
         </Link>
         <Link className="ml-6" href={"/"}>
-          Patient Care
+          NAAC MANDATE
         </Link>
         <Link className="ml-6" href={"/"}>
-          Student Support
-        </Link>
-        <Link className="ml-6" href={"/"}>
-          Library
-        </Link>
-        <Link className="ml-6" href={"/"}>
-          GDC Publications
-        </Link>
-        <Link className="ml-6" href={"/"}>
-          Contact
+          MUHS MANDATE
         </Link>
       </div>
     </>
