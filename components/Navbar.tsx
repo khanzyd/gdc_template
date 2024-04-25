@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import Department_Modal from "./Department_Modal";
+import { MdEmail } from "react-icons/md";
+import { MdOutlineContactSupport } from "react-icons/md";
 
 const Navbar = () => {
   const [modal, setModal] = useState(false);
@@ -15,15 +17,21 @@ const Navbar = () => {
         <p className="cursor-pointer">Student Support</p>|
         <p className="cursor-pointer">ERP Login</p>
       </div>
-      <div className="bg-slate-100 h-48 px-[10%] flex justify-between items-center m-1">
+      <div className="bg-slate-100 h-48 px-[5%] flex justify-between items-center m-1">
         <div className="flex items-end">
-          <Image src={"/gdclogo.jpeg"} className=" rounded-tl-full rounded-tr-full mr-2" alt="" height={"150"} width={"150"} />
+          <Image
+            src={"/gdclogo.jpeg"}
+            className=" rounded-tl-full rounded-tr-full mr-2"
+            alt=""
+            height={"150"}
+            width={"150"}
+          />
           <div className=" ">
-            <div className="ml-5 text-center mb-3">
+            <div className=" pl-1 text-start mb-3">
               <h2 className="text-4xl font-bold">
-                Government Dental College &amp; Hospital,{" "}
+                Government Dental College &amp; Hospital,
               </h2>
-              <p className="text-xl font-semibold">chh. sambajinagar</p>
+              <p className="text-xl font-semibold">Chhatrapati sambajinagar</p>
             </div>
             <div className="flex">
               <Image
@@ -60,13 +68,7 @@ const Navbar = () => {
         <div className="flex flex-col justify-evenly h-full px-2">
           <div>
             <h3 className="flex font-bold items-center">
-              <Image
-                src={"/email.svg"}
-                alt=""
-                height={30}
-                width={30}
-                className="mr-2"
-              />
+              <MdEmail className=" text-xl" />
               Email :
             </h3>
             <p className="ml-4 underline">
@@ -75,13 +77,7 @@ const Navbar = () => {
           </div>
           <div>
             <h3 className="flex font-bold items-center">
-              <Image
-                src={"/email.svg"}
-                alt=""
-                height={30}
-                width={30}
-                className="mr-2"
-              />
+              <MdOutlineContactSupport className=" text-xl" />
               Have a question? :
             </h3>
             <p className="ml-4 underline">
@@ -92,13 +88,15 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className=" bg-[#82261B] text-white h-14 px-[3%] flex gap-2 items-center justify-end font-semibold text-lg tracking-wide relative z-20">
-        <Link href={"/"}>Home</Link>
+      <div className=" bg-[#82261B] text-white  h-14 px-20 flex gap-2  items-center justify-between font-semibold text-lg tracking-wide relative z-20">
+        <Link href={"/"}>
+          Home
+        </Link>
         <Link className="ml-6" href={"/about"}>
           About
         </Link>
         <div
-          className="ml-6 flex relative z-0 h-full py-[1%]"
+          className="ml-6 flex relative z-0 h-full py-[1%] "
           onMouseEnter={() => setModal(true)}
           onMouseLeave={() => setModal(false)}
         >
