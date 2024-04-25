@@ -47,7 +47,7 @@ const Life_At_GDC = () => {
             ></iframe>
           </div>
         </div>
-        <button className="bg-orange-500 px-4 py-2 rounded-tr-2xl rounded-bl-2xl text-center w-fit mx-auto text-xl font-semibold text-slate-50">
+        <button className="bg-[#82261B] px-4 py-2 rounded-tr-2xl rounded-bl-2xl text-center w-fit mx-auto text-xl font-semibold text-slate-50">
           read more
         </button>
       </div>

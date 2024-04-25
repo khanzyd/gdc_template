@@ -4,7 +4,7 @@ import React from "react";
 const Deans_Message = () => {
   return (
     <>
-      <div className=" relative min-h-80 h-fit w-full flex mt-8 mb-20 " >
+      <div className=" relative min-h-80 h-fit w-full flex mt-8 mb-20 ">
         <div className="w-[40%] flex flex-col justify-end items-end pr-20">
           <div className="mt-10">
             <Image src={"/dean.png"} height={250} width={290} alt="" />
@@ -47,7 +47,7 @@ const Deans_Message = () => {
             and research in Oral Health.
           </p>
         </div>
-        <button className="bg-orange-500 px-4 py-2 rounded-tr-2xl rounded-bl-2xl text-center w-fit mx-auto text-xl font-semibold text-slate-50 absolute top-[93%] left-0 right-0 ">
+        <button className="bg-[#82261B] px-4 py-2 rounded-tr-2xl rounded-bl-2xl text-center w-fit mx-auto text-xl font-semibold text-slate-50 absolute top-[93%] left-0 right-0 ">
           read more
         </button>
       </div>

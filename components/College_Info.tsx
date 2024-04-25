@@ -42,7 +42,9 @@ const College_Info = () => {
             MUHS in the year 2009. GDCHN grew further with the addition of PhD
             program in 2014 and fellowship program in 2017.
           </p>
-          <button className="bg-orange-500 px-4 py-2 rounded-tr-2xl rounded-bl-2xl text-center w-fit mx-auto mt-4 text-xl font-semibold text-slate-50 ">read more</button>
+          <button className="bg-[#82261B] px-4 py-2 rounded-tr-2xl rounded-bl-2xl text-center w-fit mx-auto mt-4 text-xl font-semibold text-slate-50 ">
+            read more
+          </button>
         </div>
         <div className="  w-[40%]">
           <iframe
