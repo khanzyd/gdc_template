@@ -4,8 +4,8 @@ import React from "react";
 const College_Info = () => {
   return (
     <>
-      <div className="College_info h-fit min-h-96 flex w-screen items-center">
-        <div className=" w-[60%] px-14 py-6 text-justify text-lg tracking-wide leading-6 flex flex-col justify-center">
+      <div className="  flex w-screen items-center">
+        <div className=" w-3/5 px-14 py-6 text-justify text-lg tracking-wide leading-6 flex flex-col justify-center">
           <div className="flex items-center w-[27%] mx-auto  mb-4">
             <div className="w-full">
               <hr className="bg-black border-none h-[1.5px]" />
@@ -46,12 +46,12 @@ const College_Info = () => {
             read more
           </button>
         </div>
-        <div className="  w-[40%]">
+        <div className="  w-2/5 -mt-9 ">
           <iframe
             src="https://youtube.com/embed/kHhK1icL3qw"
             height={300}
             width={560}
-            className="mx-auto"
+            className=""
           ></iframe>
         </div>
       </div>

@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en" data-theme="bumblebee">
       <body>
         <Navbar />
-        <main className=" h-fit">{children}</main>
+        <main className="">{children}</main>
         <Footer/>
       </body>
     </html>
