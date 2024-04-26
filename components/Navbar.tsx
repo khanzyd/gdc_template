@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import Department_Modal from "./Department_Modal";
+import Department_Modal from "./DepartmentModal";
 import { MdEmail } from "react-icons/md";
 import { MdOutlineContactSupport } from "react-icons/md";
 
