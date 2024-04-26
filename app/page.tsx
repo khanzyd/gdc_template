@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Home_Carousel from "@/components/Home_Carousel";
-import left_arrow from "@/public/left-arrow.svg";
-import right_arrow from "/public/right-arrow.svg";
 import CouncilMemberCard from "@/components/council_member_card";
 import left_arrow from "@/public/left-arrow.svg";
 import right_arrow from "@/public/right-arrow.svg";
@@ -56,7 +54,7 @@ export default function Home() {
         <h1 className="text-[#82261B] text-2xl font-semibold mb-16 underline">
           MEMBERS OF COLLEGE COUNCIL
         </h1>
-        <div className="flex flex-wrap gap-8 px-32">
+        <div className="flex flex-wrap gap-8 px-32 justify-center">
             <CouncilMemberCard></CouncilMemberCard>
             <CouncilMemberCard></CouncilMemberCard>
             <CouncilMemberCard></CouncilMemberCard>
