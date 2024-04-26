@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Home_Carousel from "@/components/Home_Carousel";
-import CouncilMemberCard from "@/components/council_member_card";
+import Home_Carousel from "@/components/HomeCarousel";
+import CouncilMemberCard from "@/components/CouncilMemberCard";
 import left_arrow from "@/public/left-arrow.svg";
 import right_arrow from "@/public/right-arrow.svg";
 import Box from "@/components/Box";
-import College_Info from "@/components/College_Info";
-import Deans_Message from "@/components/Deans_Message";
-import Life_At_GDC from "@/components/Life_At_GDC";
+import College_Info from "@/components/CollegeInfo";
+import Deans_Message from "@/components/DeansMessage";
+import Life_At_GDC from "@/components/LifeAtGDC";
 
 let arr = [
   {
