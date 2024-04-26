@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Home_Carousel from "@/components/Home_Carousel";
-import left_arrow from "/public/left-arrow.svg";
+import left_arrow from "@/public/left-arrow.svg";
 import right_arrow from "/public/right-arrow.svg";
 import CouncilMemberCard from "@/components/council_member_card";
 import left_arrow from "@/public/left-arrow.svg";
