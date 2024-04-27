@@ -88,21 +88,22 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className=" bg-[#82261B] text-white  h-14 px-20 flex gap-2  items-center justify-between font-semibold text-lg tracking-wide relative z-20">
-        <Link href={"/"}>
+      <div className=" bg-[#82261B] text-white px-20 py-3 flex items-center justify-end font-semibold text-lg tracking-wide relative z-20">
+        <Link href={"/"} className="hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-4 duration-200">
           Home
         </Link>
-        <Link className="ml-6" href={"/about"}>
+        <Link className="hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-4 duration-200" href={"/about"}>
           About
         </Link>
         <div
-          className="ml-6 flex relative z-0 h-full py-[1%] "
+          className="flex relative z-0 cursor-default hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-4 duration-200"
           onMouseEnter={() => setModal(true)}
           onMouseLeave={() => setModal(false)}
         >
           Departments
           <Image
-            src={`${modal ? "/up.svg" : "down.svg"}`}
+            className={`${modal ? "-scale-y-100" : "scale-y-100"} ml-2 duration-100`}
+            src="/up.svg"
             alt=""
             height={10}
             width={25}
@@ -118,16 +119,16 @@ const Navbar = () => {
             <Department_Modal />
           </div>
         </div>
-        <Link className="ml-6" href={"/"}>
+        <Link className="hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-4 duration-200" href={"/"}>
           NIRF2024
         </Link>
-        <Link className="ml-6" href={"/research"}>
+        <Link className="hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-4 duration-200" href={"/research"}>
           NEET UG(B.D.S)ADMISSION PROCESS 2023-24
         </Link>
-        <Link className="ml-6" href={"/"}>
+        <Link className="hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-4 duration-200" href={"/"}>
           NAAC MANDATE
         </Link>
-        <Link className="ml-6" href={"/"}>
+        <Link className="hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-4 duration-200" href={"/"}>
           MUHS MANDATE
         </Link>
       </div>
