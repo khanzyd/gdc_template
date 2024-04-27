@@ -3,21 +3,21 @@ import React from "react";
 
 const Department_Modal = () => {
   return (
-      <div className="bg-[#71150A] flex flex-col gap-2 text-nowrap px-3 py-3">
-        <Link href={"/"} className="hover:underline">
-          <li>Prosthodontics & Crown</li>
+      <div className="bg-[#71150A] flex flex-col text-nowrap px-1 py-3">
+        <Link href={"/"} className="hover:shadow-[0_2px_0px_0px_white] px-4 py-2 duration-100">
+          Prosthodontics & Crown
         </Link>
-        <Link href={"/"} className="hover:underline">
-          <li>Periodontology</li>
+        <Link href={"/"} className="hover:shadow-[0_2px_0px_0px_white] px-4 py-2 duration-100">
+          Periodontology
         </Link>
-        <Link href={"/"} className="hover:underline">
-          <li>Oral & Maxillofacial Surgery</li>
+        <Link href={"/"} className="hover:shadow-[0_2px_0px_0px_white] px-4 py-2 duration-100">
+          Oral & Maxillofacial Surgery
         </Link>
-        <Link href={"/"} className="hover:underline">
-          <li>Conservative dentistry</li>
+        <Link href={"/"} className="hover:shadow-[0_2px_0px_0px_white] px-4 py-2 duration-100">
+          Conservative dentistry
         </Link>
-        <Link href={"/"} className="hover:underline">
-          <li>Oral medicine and dentology</li>
+        <Link href={"/"} className="hover:shadow-[0_2px_0px_0px_white] px-4 py-2 duration-100">
+          Oral medicine and dentology
         </Link>
       </div>
   );
