@@ -22,25 +22,7 @@ const College_Info = () => {
             </div>
           </div>
           <p>
-            &emsp;&emsp;&emsp;&emsp; Government Dental College & Hospital,
-            Nagpur (GDCHN) is a Premier Dental Institute catering to oral health
-            care needs of the population of Central India. It is located in the
-            geographical centre of India in the campus of the Government Medical
-            College, which boasts to be the largest medical campus in Asia.
-            Established in the year 1968, the institute is recognized by its
-            governing bodies, Directorate of Medical Education & Research
-            (DMER), Medical Education & Drug Dept. (MEDD, GOM) and Dental
-            Council of India (DCI). Since its inception, it has served as a
-            nurturing alma mater to more than 2000 dental graduates. GDCHN was
-            earlier affiliated to Nagpur University (RSTMU) with an intake
-            capacity of 30 students for BDS. Since then, the intake capacity has
-            more than doubled, to 63 in 2019. In the year 1998, GDCHN got its UG
-            program affiliated to the Maharashtra University of Health Sciences
-            (MUHS), the largest Health Education University in Maharashtra. The
-            institute has been a pioneer in establishing the MDS Post Graduate
-            program in all specialties. The PG degree program got affiliated to
-            MUHS in the year 2009. GDCHN grew further with the addition of PhD
-            program in 2014 and fellowship program in 2017.
+            &emsp;&emsp;&emsp;&emsp; One of Maharashtra's prestigious government dental schools, Government Dental College & Hospital (GDCH) Aurangabad was established in 1982 and 1983. The goal of the college, which is more commonly referred to as GDCH Aurangabad, was to provide the best dental care and services for oral and maxillofacial surgery to the rural population and the less fortunate in society. The college, which is a part of the Maharashtra University of Health Sciences in Nashik and has been approved by the Dental Council of India, is well-known for its dedication to providing dental education and healthcare of the highest possible quality. Dentistry programs are available for both undergraduates and postgraduates at GDCH Aurangabad. The four-year Bachelor of Dental Surgery (BDS) program provides students with comprehensive knowledge and skills in a variety of dental fields. Preventive, curative, and rehabilitative dental services are all possible for students who complete this program, which trains them to be competent dental professionals.
           </p>
           <button className="bg-[#82261B] px-4 py-2 rounded-tr-2xl rounded-bl-2xl text-center w-fit mx-auto mt-4 text-xl font-semibold text-slate-50 ">
             read more
