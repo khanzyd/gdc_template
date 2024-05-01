@@ -3,7 +3,7 @@ import React from "react";
 
 const Department_Modal = () => {
   return (
-      <div className="bg-[#71150A] flex flex-col text-nowrap px-1 py-3">
+      <div className="bg-[#91352A] flex flex-col text-nowrap px-1 py-3">
         <Link href={"/"} className="hover:shadow-[0_2px_0px_0px_white] px-4 py-2 duration-100">
           Prosthodontics & Crown
         </Link>
