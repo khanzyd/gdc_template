@@ -29,7 +29,7 @@ const Home_Carousel = () => {
         <div className="absolute left-5 z-10 ">
           <Image src={"/left-arrow.svg"} height={50} width={50} alt="" />
         </div>
-        <Image className="" objectFit="cover" src={homeImg} fill alt="" />
+        <Image className="" src={homeImg} fill alt="" />
         <div className="absolute right-5 z-10">
           <Image src={"/right-arrow.svg"} height={50} width={50} alt="" />
         </div>
