@@ -87,7 +87,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className=" bg-[#82261B] text-white px-20 py-2 flex items-center justify-end font-semibold text-sm tracking-wide relative">
+            <div className=" bg-[#82261B] text-white px-40 py-2 flex items-center justify-end font-semibold text-sm tracking-wide relative">
                 <NavItem href={"/"}>Home</NavItem>
                 <DropDownMenu links={[{name: "courses", ref: "/"}]}>About Us</DropDownMenu>
                 <DropDownMenu links={[
@@ -109,7 +109,25 @@ const Navbar = () => {
                 <NavItem href={"/procurement-cell"}>Procurement Cell</NavItem>
                 <NavItem href={"/muhs-mandate"}>MUHS Mandate</NavItem>
                 <NavItem href={"/naac"}>NAAC</NavItem>
-                <DropDownMenu links={[{name: "", ref: ""}]}>Research</DropDownMenu>
+                <DropDownMenu links={[
+                    {name: "Research", ref: "/research"},
+                    {name: "Director's message", ref: "/research"},
+                    {name: "Pradan", ref: "/research"},
+                    {name: "Chairman's message", ref: "/research"},
+                    {name: "Schedules", ref: "/research"},
+                    {name: "Programs conducted", ref: "/research"},
+                    {name: "Ethical committee member", ref: "/research"},
+                    {name: "Meeting schedule", ref: "/research"},
+                    {name: "Research awards", ref: "/research"},
+                    {name: "MOU's & Collaboration", ref: "/research"},
+                    {name: "Research Projects", ref: "/research"},
+                    {name: "Research Fundings", ref: "/research"},
+                    {name: "Research Publications", ref: "/research"},
+                    {name: "Patents", ref: "/research"},
+                    {name: "Copyrights", ref: "/research"},
+                    {name: "Innovations", ref: "/research"},
+                    {name: "Interdesciplinary activities", ref: "/research"},
+                    ]}>Research</DropDownMenu>
             </div>
         </>
     );
