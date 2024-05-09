@@ -21,8 +21,8 @@ const Navbar = () => {
             <div className="h-48 px-[5%] flex justify-between items-center cover-image relative drop-shadow-2xl">
                 <div className="flex items-end gap-8">
                     <Image
-                        src={"/gdclogo.jpeg"}
-                        className=" rounded-tl-full rounded-tr-full mr-2"
+                        src={"/gdclogo1.png"}
+                        className="mr-2"
                         alt=""
                         height={"150"}
                         width={"150"}
