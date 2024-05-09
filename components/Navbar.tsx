@@ -1,15 +1,13 @@
 "use client";
+
 import Image from "next/image";
-import React, { useState } from "react";
-import Department_Modal from "./DepartmentModal";
+import DropDownMenu from "./DropDownMenu";
 import NavItem from "./NavItem";
 import { MdEmail } from "react-icons/md";
 import { MdOutlineContactSupport } from "react-icons/md";
 import SecondaryNavbarItem from "./SecondaryNavbarItem";
 
 const Navbar = () => {
-    const [modal, setModal] = useState(false);
-
     return (
         <>
             <div className="bg-[#82261B] text-white flex justify-end px-16 items-center font-semibold tracking-wide text-sm">
@@ -89,31 +87,47 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className=" bg-[#82261B] text-white px-20 flex items-center justify-end font-semibold text-sm tracking-wide relative">
-                <NavItem href={"/home"}> Home </NavItem>
-                <NavItem href={"/"}> About Us </NavItem>
-                <div
-                    className="flex relative cursor-pointer duration-200 hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-2"
-                    onMouseEnter={() => setModal(true)}
-                    onMouseLeave={() => setModal(false)} >
-                    Departments
-                    <Image
-                        className={`${modal ? "-scale-y-100" : "scale-y-100"} ml-2 duration-100`}
-                        src="/up.svg"
-                        alt=""
-                        height={15}
-                        width={15} />
-                    <div
-                        id="modal"
-                        className={`${modal ? "visible top-full left-0 h-fit" : "h-0 hidden overflow-hidden"}` +
-                            " min-w-fit absolute shadow-xl z-10"}>
-                        <Department_Modal />
-                    </div>
-                </div>
-                <NavItem href={"/"}> NIRF2024 </NavItem>
-                <NavItem href={"/"}> NEET UG(B.D.S)ADMISSION PROCESS 2023-24 </NavItem>
-                <NavItem href={"/"}> NAAC MANDATE </NavItem>
-                <NavItem href={"/"}> MUHS MANDATE </NavItem>
+            <div className=" bg-[#82261B] text-white px-40 py-2 flex items-center justify-end font-semibold text-sm tracking-wide relative">
+                <NavItem href={"/"}>Home</NavItem>
+                <DropDownMenu links={[{name: "courses", ref: "/"}]}>About Us</DropDownMenu>
+                <DropDownMenu links={[
+                    { name: "DEPARTMENT OF ORAL MEDICINE & RADIOLOGY", ref: "/" },
+                    { name: "DEPARTMENT OF ORAL SURGERY", ref: "/" },
+                    { name: "DEPARTMENT OF PERIODONTICS", ref: "/" },
+                    { name: "DEPARTMENT OF PUBLIC HEALTH DENTISTRY", ref: "/" },
+                    { name: "DEPARTMENT OF PEDODONTICS", ref: "/" },
+                    { name: "DEPARTMENT OF CONSERVATIVE DENTISTRY", ref: "/" },
+                    { name: "DEPARTMENT OF ORTHODONTICS", ref: "/" },
+                    { name: "DEPARTMENT OF PROSTHODONTICS", ref: "/" },
+                    { name: "DEPARTMENT OF ORAL PATHOLOGY", ref: "/" },
+                    { name: "ADMINISTRATIVE OFFICE", ref: "/" },
+                    { name: "A. OFFICE STAFF", ref: "/" },
+                    { name: "B. ADMINISTRATIVE SECTION", ref: "/" },
+                ]}>Departments</DropDownMenu>
+                <DropDownMenu links={[{name: "", ref: ""}]}>Student Portal</DropDownMenu>
+                <NavItem href={"/recruitment-cell"}>Recruitment Cell</NavItem>
+                <NavItem href={"/procurement-cell"}>Procurement Cell</NavItem>
+                <NavItem href={"/muhs-mandate"}>MUHS Mandate</NavItem>
+                <NavItem href={"/naac"}>NAAC</NavItem>
+                <DropDownMenu links={[
+                    {name: "Research", ref: "/research"},
+                    {name: "Director's message", ref: "/research"},
+                    {name: "Pradan", ref: "/research"},
+                    {name: "Chairman's message", ref: "/research"},
+                    {name: "Schedules", ref: "/research"},
+                    {name: "Programs conducted", ref: "/research"},
+                    {name: "Ethical committee member", ref: "/research"},
+                    {name: "Meeting schedule", ref: "/research"},
+                    {name: "Research awards", ref: "/research"},
+                    {name: "MOU's & Collaboration", ref: "/research"},
+                    {name: "Research Projects", ref: "/research"},
+                    {name: "Research Fundings", ref: "/research"},
+                    {name: "Research Publications", ref: "/research"},
+                    {name: "Patents", ref: "/research"},
+                    {name: "Copyrights", ref: "/research"},
+                    {name: "Innovations", ref: "/research"},
+                    {name: "Interdesciplinary activities", ref: "/research"},
+                    ]}>Research</DropDownMenu>
             </div>
         </>
     );
