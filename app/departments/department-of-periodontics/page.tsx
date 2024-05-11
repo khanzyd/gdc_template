@@ -3,39 +3,38 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function Page(props: { params: { "department-sub": string } }) {
-  const department = props.params["department-sub"];
+export default function Page() {
   return (
     <div className="  w-full min-h-screen flex ">
       <div className="flex basis-1/5 border-r-[#82251b6e] border-r-2 ">
         <div className=" w-full flex flex-col gap-2 items-start justify-start p-4">
           <Link
             className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/${department}/#about`}
+            href={`/departments/department-of-periodontics/#about`}
           >
             About
           </Link>
           <Link
             className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/${department}/#faculty`}
+            href={`/departments/department-of-periodontics/#faculty`}
           >
             Faculty
           </Link>
           <Link
             className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/${department}/#vision`}
+            href={`/departments/department-of-periodontics/#vision`}
           >
             Vision
           </Link>
           <Link
             className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/${department}/#mission`}
+            href={`/departments/department-of-periodontics/#mission`}
           >
             Mission
           </Link>
           <Link
             className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/${department}/#videos`}
+            href={`/departments/department-of-periodontics/#videos`}
           >
             Videos
           </Link>
@@ -44,16 +43,15 @@ export default function Page(props: { params: { "department-sub": string } }) {
       <div className="flex basis-4/5 overflow-y-scroll max-h-screen flex-col p-3 gap-8">
         <div className=" w-full  border-2 border-[#b8483ba5] py-12 text-center rounded-sm  ">
           <h1 className=" capitalize text-4xl font-bold text-[#82261B]">
-            {department}
+            {"Department of Periodontics"}
           </h1>
           {/* Put the dept name from JSON  */}
         </div>
         <div
           id="about"
           className=" w-full flex flex-col justify-center items-center py-3"
-        > 
+        >
           <div className=" p-3 text-lg text-justify">
-            
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
               expedita sit, aliquid fuga, quia dignissimos neque dolore corporis

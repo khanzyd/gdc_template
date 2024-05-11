@@ -98,7 +98,7 @@ const Navbar = () => {
                     { name: "COURSES", ref: "/about-us/courses" }
                 ]}>ABOUT US</DropDownMenu>
                 <DropDownMenu links={[
-                    { name: "DEPARTMENT OF ORAL MEDICINE & RADIOLOGY", ref: "/departments/department-of-oral-medicine&radiology" },
+                    { name: "DEPARTMENT OF ORAL MEDICINE & RADIOLOGY", ref: "/departments/department-of-oral-medicine-and-radiology" },
                     { name: "DEPARTMENT OF ORAL SURGERY", ref: "/departments/department-of-oral-surgery" },
                     { name: "DEPARTMENT OF PERIODONTICS", ref: "/departments/department-of-periodontics" },
                     { name: "DEPARTMENT OF PUBLIC HEALTH DENTISTRY", ref: "/departments/department-of-public-health-dentistry" },
