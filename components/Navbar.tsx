@@ -132,7 +132,7 @@ const Navbar = () => {
                 name: "DEPARTMENT OF ORAL PATHOLOGY",
                 ref: "/departments/department-of-oral-pathology",
               },
-              { name: "ADMINISTRATIVE OFFICE", ref: "/administrative-office" },
+              { name: "ADMINISTRATIVE OFFICE", ref: "/departments/administrative-office" },
               { name: "A. OFFICE STAFF", ref: "/" },
               { name: "B. ADMINISTRATIVE SECTION", ref: "/" },
             ]}
