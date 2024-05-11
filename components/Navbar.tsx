@@ -17,7 +17,7 @@ const Navbar = () => {
           <SecondaryNavbarItem>ERP Login</SecondaryNavbarItem>
         </div>
         <div className="h-48 px-[5%] flex justify-between items-center cover-image relative drop-shadow-2xl">
-          <div className="flex items-end gap-8">
+          <div className="flex items-end gap-8 py-4">
             <Image
               src={"/gdclogo1.png"}
               className="mr-2"
