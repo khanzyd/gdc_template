@@ -22,19 +22,3 @@
     opacity: 0.17;
     box-shadow: inset -1px 190px 42px -22px rgba(255, 255, 255, 1)
 }
-
-.cover-image::before{
-    @apply bg-[url('../public/college-cover.png')] bg-no-repeat;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    right: 0;
-    content: ""; 
-    background-position: center;
-    background-size: cover;
-    opacity: 0.20;
-    z-index: -1;
-}

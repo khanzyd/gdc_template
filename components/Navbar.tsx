@@ -17,7 +17,7 @@ const Navbar = () => {
           <SecondaryNavbarItem>ERP Login</SecondaryNavbarItem>
         </div>
         <div className="h-48 px-[5%] flex justify-between items-center cover-image relative drop-shadow-2xl">
-          <div className="flex items-end gap-8">
+          <div className="flex items-end gap-8 py-4">
             <Image
               src={"/gdclogo1.png"}
               className="mr-2"
@@ -89,88 +89,62 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className=" bg-[#82261B] text-white px-40 py-2 flex items-center justify-end font-semibold text-sm tracking-wide relative">
-          <NavItem href={"/"}>Home</NavItem>
-          <DropDownMenu links={[{ name: "courses", ref: "/" }]}>
-            About Us
-          </DropDownMenu>
-          <DropDownMenu
-            links={[
-              {
-                name: "DEPARTMENT OF ORAL MEDICINE & RADIOLOGY",
-                ref: "/departments/department-of-oral-medicine-and-radiology",
-              },
-              {
-                name: "DEPARTMENT OF ORAL SURGERY",
-                ref: "/departments/department-of-oral-surgery",
-              },
-              {
-                name: "DEPARTMENT OF PERIODONTICS",
-                ref: "/departments/department-of-periodontics ",
-              },
-              {
-                name: "DEPARTMENT OF PUBLIC HEALTH DENTISTRY",
-                ref: "/departments/department-of-public-health-dentistry",
-              },
-              {
-                name: "DEPARTMENT OF PEDODONTICS",
-                ref: "/departments/department-of-pedodontics",
-              },
-              {
-                name: "DEPARTMENT OF CONSERVATIVE DENTISTRY",
-                ref: "/departments/department-of-conservative-dentistry",
-              },
-              {
-                name: "DEPARTMENT OF ORTHODONTICS",
-                ref: "/departments/department-of-orthodontics",
-              },
-              {
-                name: "DEPARTMENT OF PROSTHODONTICS",
-                ref: "/departments/department-of-prosthodontics",
-              },
-              {
-                name: "DEPARTMENT OF ORAL PATHOLOGY",
-                ref: "/departments/department-of-oral-pathology",
-              },
-              { name: "ADMINISTRATIVE OFFICE", ref: "/departments/administrative-office" },
-              { name: "A. OFFICE STAFF", ref: "/" },
-              { name: "B. ADMINISTRATIVE SECTION", ref: "/" },
-            ]}
-          >
-            Departments
-          </DropDownMenu>
-          <DropDownMenu links={[{ name: "", ref: "" }]}>
-            Student Portal
-          </DropDownMenu>
-          <NavItem href={"/recruitment-cell"}>Recruitment Cell</NavItem>
-          <NavItem href={"/procurement-cell"}>Procurement Cell</NavItem>
-          <NavItem href={"/muhs-mandate"}>MUHS Mandate</NavItem>
-          <NavItem href={"/naac"}>NAAC</NavItem>
-          <DropDownMenu
-            links={[
-              { name: "Research", ref: "/research" },
-              { name: "Director's message", ref: "/research" },
-              { name: "Pradan", ref: "/research" },
-              { name: "Chairman's message", ref: "/research" },
-              { name: "Schedules", ref: "/research" },
-              { name: "Programs conducted", ref: "/research" },
-              { name: "Ethical committee member", ref: "/research" },
-              { name: "Meeting schedule", ref: "/research" },
-              { name: "Research awards", ref: "/research" },
-              { name: "MOU's & Collaboration", ref: "/research" },
-              { name: "Research Projects", ref: "/research" },
-              { name: "Research Fundings", ref: "/research" },
-              { name: "Research Publications", ref: "/research" },
-              { name: "Patents", ref: "/research" },
-              { name: "Copyrights", ref: "/research" },
-              { name: "Innovations", ref: "/research" },
-              { name: "Interdesciplinary activities", ref: "/research" },
-            ]}
-          >
-            Research
-          </DropDownMenu>
-        </div>
-      </>
+            <div className=" bg-[#82261B] text-white pr-44 flex items-center justify-end font-semibold text-sm tracking-wide relative shadow-lg">
+                <NavItem href={"/"}>HOME</NavItem>
+                <DropDownMenu links={[
+                    { name: "ABOUT COLLEGE", ref: "/about-us/about-college" },
+                    { name: "INFRASTRUCTURE", ref: "/about-us/infrastructure" },
+                    { name: "COLLEGE CERTIFICATION", ref: "/about-us/college-certification" },
+                    { name: "COURSES", ref: "/about-us/courses" }
+                ]}>ABOUT US</DropDownMenu>
+                <DropDownMenu links={[
+                    { name: "DEPARTMENT OF ORAL MEDICINE & RADIOLOGY", ref: "/departments/department-of-oral-medicine-and-radiology" },
+                    { name: "DEPARTMENT OF ORAL SURGERY", ref: "/departments/department-of-oral-surgery" },
+                    { name: "DEPARTMENT OF PERIODONTICS", ref: "/departments/department-of-periodontics" },
+                    { name: "DEPARTMENT OF PUBLIC HEALTH DENTISTRY", ref: "/departments/department-of-public-health-dentistry" },
+                    { name: "DEPARTMENT OF PEDODONTICS", ref: "/departments/department-of-pedodontics" },
+                    { name: "DEPARTMENT OF CONSERVATIVE DENTISTRY", ref: "/departments/department-of-conservative-dentistry" },
+                    { name: "DEPARTMENT OF ORTHODONTICS", ref: "/departments/department-of-orthodontics" },
+                    { name: "DEPARTMENT OF PROSTHODONTICS", ref: "/departments/department-of-prosthodontics" },
+                    { name: "DEPARTMENT OF ORAL PATHOLOGY", ref: "/departments/department-of-oral-pathology" },
+                    { name: "ADMINISTRATIVE OFFICE", ref: "/departments/administrative-office" },
+                ]}>DEPARTMENTS</DropDownMenu>
+                <DropDownMenu links={[
+                    { name: "ANTI RAGGING", ref: "/student-portal/anti-ragging" },
+                    { name: "MENTORSHIP PROGRAMME", ref: "/student-portal/mentorship-programme" },
+                    { name: "BUDDY SYSTEM", ref: "/student-portal/buddy-system" },
+                    { name: "STUDENT COUNCIL", ref: "/student-portal/student-council" },
+                    { name: "PARENT-TEACHER ASSOCIATION", ref: "/student-portal/parent-teacher-association" },
+                    { name: "STUDENT INFO", ref: "/student-portal/student-info" },
+                    { name: "STUDENTS'S ACHIEVEMENTS", ref: "/student-portal/students-achievements" },
+                    { name: "ACADEMIC", ref: "/student-portal/academic" },
+                    { name: "EDUCATIONAL RESOURCES", ref: "/student-portal/educational-resources" },
+                    { name: "CARRIER GUIDANCE CELL", ref: "/student-portal/carrier-guidance-cell" },
+                    { name: "FEEDBACK AND VALIDATION", ref: "/student-portal/feedback-and-validation" },
+                    { name: "INTERNATIONAL STUDENTS CELL", ref: "/student-portal/international-students-cell" },
+                    { name: "NSS & NCC", ref: "/student-portal/nss-and-ncc" },
+                    { name: "EQUAL OPPORTINITY CELL", ref: "/student-portal/equal-opportinity-cell" },
+                ]}>STUDENT PORTAL</DropDownMenu>
+                <NavItem href={"/recruitment-cell"}>RECRUITMENT CELL</NavItem>
+                <NavItem href={"/procurement-cell"}>PROCUREMENT CELL</NavItem>
+                <NavItem href={"/muhs-mandate"}>MUHS MANDATE</NavItem>
+                <NavItem href={"/naac"}>NAAC</NavItem>
+                <DropDownMenu links={[
+                    {name: "RESEARCH DIRECTOR'S MESSAGE", ref: "/research/research-directors-message"},
+                    {name: "PRADAN", ref: "/research/pradan"},
+                    {name: "ETHICAL COMMITTEE", ref: "/research/ethical-committee"},
+                    {name: "RESEARCH AWARDS", ref: "/research/research-awards"},
+                    {name: "MOU'S & COLLABORATION", ref: "/research/mous-collaboration"},
+                    {name: "RESEARCH PROJECTS", ref: "/research/research-projects"},
+                    {name: "RESEARCH FUNDINGS", ref: "/research/research-fundings"},
+                    {name: "RESEARCH PUBLICATIONS", ref: "/research/research-publications"},
+                    {name: "PATENTS", ref: "/research/patents"},
+                    {name: "COPYRIGHTS", ref: "/research/copyrights"},
+                    {name: "INNOVATIONS", ref: "/research/innovations"},
+                    {name: "INTERDESCIPLINARY ACTIVITIES", ref: "/research/interdesciplinary-activities"},
+                    ]}>RESEARCH</DropDownMenu>
+            </div>
+        </>
     );
 };
 
