@@ -89,7 +89,7 @@ const Navbar = () => {
           </div>
         </div>
 
-            <div className=" bg-[#82261B] text-white px-40 py-2 flex items-center justify-end font-semibold text-sm tracking-wide relative">
+            <div className=" bg-[#82261B] text-white pr-44 flex items-center justify-end font-semibold text-sm tracking-wide relative shadow-lg">
                 <NavItem href={"/"}>HOME</NavItem>
                 <DropDownMenu links={[
                     { name: "ABOUT COLLEGE", ref: "/about-us/about-college" },
@@ -126,27 +126,22 @@ const Navbar = () => {
                     { name: "EQUAL OPPORTINITY CELL", ref: "/student-portal/equal-opportinity-cell" },
                 ]}>STUDENT PORTAL</DropDownMenu>
                 <NavItem href={"/recruitment-cell"}>RECRUITMENT CELL</NavItem>
-                <NavItem href={"/procurement-cell"}>PROCUREMENT cELL</NavItem>
+                <NavItem href={"/procurement-cell"}>PROCUREMENT CELL</NavItem>
                 <NavItem href={"/muhs-mandate"}>MUHS MANDATE</NavItem>
                 <NavItem href={"/naac"}>NAAC</NavItem>
                 <DropDownMenu links={[
-                    {name: "Research", ref: "/research"},
-                    {name: "Director's message", ref: "/research"},
-                    {name: "Pradan", ref: "/research"},
-                    {name: "Chairman's message", ref: "/research"},
-                    {name: "Schedules", ref: "/research"},
-                    {name: "Programs conducted", ref: "/research"},
-                    {name: "Ethical committee member", ref: "/research"},
-                    {name: "Meeting schedule", ref: "/research"},
-                    {name: "Research awards", ref: "/research"},
-                    {name: "MOU's & Collaboration", ref: "/research"},
-                    {name: "Research Projects", ref: "/research"},
-                    {name: "Research Fundings", ref: "/research"},
-                    {name: "Research Publications", ref: "/research"},
-                    {name: "Patents", ref: "/research"},
-                    {name: "Copyrights", ref: "/research"},
-                    {name: "Innovations", ref: "/research"},
-                    {name: "Interdesciplinary activities", ref: "/research"},
+                    {name: "RESEARCH DIRECTOR'S MESSAGE", ref: "/research/research-directors-message"},
+                    {name: "PRADAN", ref: "/research/pradan"},
+                    {name: "ETHICAL COMMITTEE", ref: "/research/ethical-committee"},
+                    {name: "RESEARCH AWARDS", ref: "/research/research-awards"},
+                    {name: "MOU'S & COLLABORATION", ref: "/research/mous-collaboration"},
+                    {name: "RESEARCH PROJECTS", ref: "/research/research-projects"},
+                    {name: "RESEARCH FUNDINGS", ref: "/research/research-fundings"},
+                    {name: "RESEARCH PUBLICATIONS", ref: "/research/research-publications"},
+                    {name: "PATENTS", ref: "/research/patents"},
+                    {name: "COPYRIGHTS", ref: "/research/copyrights"},
+                    {name: "INNOVATIONS", ref: "/research/innovations"},
+                    {name: "INTERDESCIPLINARY ACTIVITIES", ref: "/research/interdesciplinary-activities"},
                     ]}>RESEARCH</DropDownMenu>
             </div>
         </>
