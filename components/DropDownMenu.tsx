@@ -17,7 +17,7 @@ const DropDownMenu = (props: {children: ReactNode, links: {name: string, ref: st
 
     return (
         <div
-            className="flex relative cursor-pointer duration-200 hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-2"
+            className="flex relative cursor-pointer duration-200 hover:shadow-[-1px_0_0_0_white,1px_0_0_0_white] px-2 z-50"
             onMouseEnter={() => setdropdown(true)}
             onMouseLeave={() => setdropdown(false)} >
             {props.children}

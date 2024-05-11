@@ -1,7 +1,8 @@
 import React from "react";
 
 export default function Page(props: { params: { "about-sub": string } }) {
-    return <>
+    return <div>
+
         {props.params["about-sub"]}
-    </>
+    </div>
 }
