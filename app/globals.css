@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --primary-color: rgb(130 38 27);
+}
+
 .College_info{
     position: relative;
-
 }
 
 .College_info::before{
