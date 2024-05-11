@@ -92,7 +92,7 @@ const Navbar = () => {
                 <DropDownMenu links={[
                     { name: "ABOUT COLLEGE", ref: "/about-us/about-college" },
                     { name: "INFRASTRUCTURE", ref: "/about-us/infrastructure" },
-                    { name: "COLLEGE CERTIFICATION", ref: "/about-us/courses" },
+                    { name: "COLLEGE CERTIFICATION", ref: "/about-us/college-certification" },
                     { name: "COURSES", ref: "/about-us/courses" }
                 ]}>ABOUT US</DropDownMenu>
                 <DropDownMenu links={[
