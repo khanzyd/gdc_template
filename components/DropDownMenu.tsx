@@ -9,7 +9,7 @@ const DropDownMenu = (props: {children: ReactNode, links: {name: string, ref: st
 
     for(let e of props.links){
         NavItems.push(
-            <a href={e.ref} className="hover:shadow-[0_2px_0px_0px_white] px-4 py-2 duration-100">
+            <a href={e.ref} className="hover:shadow-[0_2px_0px_0px_white] hover:drop-shadow-[0_1px_0_#ffffff] px-4 py-2 duration-100">
                 {e.name}
             </a>
         );
@@ -17,7 +17,7 @@ const DropDownMenu = (props: {children: ReactNode, links: {name: string, ref: st
 
     return (
         <div
-            className="flex relative cursor-pointer duration-200 hover:shadow-[0_1px_0_0_0_white] px-2 py-2 z-50"
+            className="flex relative cursor-pointer duration-200 hover:shadow-[0_1px_0_0_0_white] hover:drop-shadow-[0_1px_0_#ffffff] px-2 py-2 z-50"
             onMouseEnter={() => setdropdown(true)}
             onMouseLeave={() => setdropdown(false)} >
             {props.children}
