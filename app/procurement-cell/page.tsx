@@ -1,7 +1,12 @@
 import React from "react";
 
-export default function Page(){
+export default function Page() {
     return <>
-        procurement cell
+        <div>
+            PURCHASE - CELL
+        </div>
+        <div>
+            REPAIR & - MAINTENANCE CELL
+        </div>
     </>
 }
