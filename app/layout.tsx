@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="bumblebee">
-      <body>
+      <body className="h-screen flex flex-col">
         <Navbar />
         <main className="">{children}</main>
         <Footer/>
