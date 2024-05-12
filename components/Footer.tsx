@@ -8,32 +8,55 @@ export default function Footer() {
     return (
         <>
             <div className="mt-auto">
-                <div className="flex justify-center gap-32 bg-[#a2463B] py-16 text-white">
+                <div className="flex max-sm:flex-col max-sm:items-center justify-center gap-32 max-sm:gap-10 bg-[#a2463B] py-16 text-white">
                     <div className="flex flex-col items-start">
-                        <span className="text-2xl mb-5 font-semibold">Quick Links</span>
-                        <Link href="https://dciindia.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">Dental Council Of India</Link>
-                        <Link href="https://medical.maharashtra.gov.in/index.php" className="mb-2 text-xs hover:underline">Medical Education & Drugs Department</Link>
-                        <Link href="https://merciedu.co.in/" className="mb-2 text-xs hover:underline">Medical Education & Research</Link>
-                        <Link href="https://www.msdcmumbai.org.in/MSDCNew/index.html#/Home" className="mb-2 text-xs hover:underline">Maharashtra State Dental Council</Link>
-                        <Link href="http://www.mpsc.gov.in/" className="mb-2 text-xs hover:underline">Maharashtra Public Service Commission</Link>
-                        <Link href="https://cetcell.mahacet.org/" className="mb-2 text-xs hover:underline">CET-CELL</Link>
-                        <Link href="https://www.muhs.ac.in/" className="mb-2 text-xs hover:underline">Maharashtra University Of Health & Science</Link>
+                        <span className="text-2xl max-sm:text-base mb-5 font-semibold">Quick Links</span>
+                        <Link href="https://dciindia.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Medical Education & Drugs Department
+                            </li>
+                        </Link>
+                        <Link href="https://merciedu.co.in/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Medical Education & Research
+                            </li>
+                        </Link>
+                        <Link href="https://www.msdcmumbai.org.in/MSDCNew/index.html#/Home" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Maharashtra State Dental Council
+                            </li>
+                        </Link>
+                        <Link href="http://www.mpsc.gov.in/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Maharashtra Public Service Commission
+                            </li>
+                        </Link>
+                        <Link href="https://cetcell.mahacet.org/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                CET-CELL
+                            </li>
+                        </Link>
+                        <Link href="https://www.muhs.ac.in/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Maharashtra University Of Health & Science
+                            </li>
+                        </Link>
                     </div>
                     <div className="flex flex-col items-center">
-                        <span className="text-2xl mb-2 font-semibold">Contact Us</span>
-                        <div className="flex flex-col justify-center items-center  px-2 gap-4">
+                        <span className="text-2xl max-sm:text-base mb-2 font-semibold">Contact Us</span>
+                        <div className="flex flex-col justify-center items-start  px-2 gap-4">
                             <div className=" flex justify-center flex-col items-start   ">
-                                <h3 className="flex font-bold items-center gap-1">
-                                    <MdEmail className=" text-xl" />
+                                <h3 className="max-sm:text-xs flex font-bold items-center gap-1">
+                                    <MdEmail className="max-sm:text-xs text-xl" />
                                     Email
                                 </h3>
-                                <p className="hover:underline">
+                                <p className="max-sm:text-sm hover:underline">
                                     Lorem_ipsum@gmail.com <br /> GDC_aurangabad@edu.in
                                 </p>
                             </div>
-                            <div className=" flex justify-center flex-col items-start   ">
+                            <div className="max-sm:text-xs flex justify-center flex-col items-start   ">
                                 <h3 className="flex font-bold items-center gap-1">
-                                    <MdOutlineContactSupport className=" text-xl" />
+                                    <MdOutlineContactSupport className="max-sm:text-xs text-xl" />
                                     Have a question?
                                 </h3>
                                 <p className=" hover:underline">
@@ -50,7 +73,7 @@ export default function Footer() {
                         <span className="text-2xl mb-2 font-semibold">193,425</span>
                     </div>
                 </div>
-                <div className="bg-[#82261B] text-white py-4 text-center">
+                <div className="bg-[var(--primary-color)] text-white py-4 text-center max-sm:text-xs">
                     © Copyright GDC 2022. Designed and Developed by MIT.
                 </div>
             </div>
