@@ -7,7 +7,7 @@ export default function Page() {
   
   return (
     <div className="  w-full min-h-screen flex ">
-      <div className="flex basis-1/5 border-r-[#82251b6e] border-r-2 ">
+      <div className="sm:flex hidden basis-1/5 border-r-[#82251b6e] border-r-2 ">
         <div className=" w-full flex flex-col gap-2 items-start justify-start p-4">
           <Link
             className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
@@ -41,7 +41,7 @@ export default function Page() {
           </Link>
         </div>
       </div>
-      <div className="flex basis-4/5 overflow-y-scroll max-h-screen flex-col p-3 gap-8">
+      <div className="flex sm:basis-4/5 overflow-y-scroll max-h-screen flex-col p-3 gap-8">
         <div className=" w-full  border-2 border-[#b8483ba5] py-12 text-center rounded-sm  ">
           <h1 className=" capitalize text-4xl font-bold text-[#82261B]">
             {"Department of Conservative Dentistry"}
@@ -52,6 +52,13 @@ export default function Page() {
           id="about"
           className=" w-full flex flex-col justify-center items-center py-3"
         >
+          <Image
+            src={"/Dummy-dept-img.jpg"}
+            alt="Department Image"
+            width={1200}
+            height={300}
+            className=" rounded"
+          />
           <div className=" p-3 text-lg text-justify">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
@@ -79,13 +86,6 @@ export default function Page() {
               iure necessitatibus, amet cupiditate debitis natus?
             </p>
           </div>
-          <Image
-            src={"/Dummy-dept-img.jpg"}
-            alt="Department Image"
-            width={1200}
-            height={300}
-            className=" rounded"
-          />
         </div>
         <hr />
         <div id="faculty">
@@ -182,7 +182,7 @@ export default function Page() {
               </div>
               <Image
                 src={"/teeth.svg"}
-                className="mx-2"
+                className=" "
                 height={25}
                 width={25}
                 alt=""
@@ -191,26 +191,26 @@ export default function Page() {
                 <hr className="bg-black border-none h-[1.5px]" />
               </div>
             </div>
-            <div className="grid grid-cols-2 place-items-center py-10 justify-center gap-y-5">
-              <div className=" h-[300px] w-[500px] ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center py-5 justify-center gap-y-5">
+              <div className=" w-70 h-44 md:w-[30rem] md:h-64 ">
                 <iframe
                   src="https://youtube.com/embed/H_ThvSdZ_HE"
-                  className="mx-auto w-full h-full rounded-md"
+                  className="w-full h-full rounded-md"
                 ></iframe>
               </div>
-              <div className=" h-[300px] w-[500px]">
+              <div className=" w-70 h-44 md:w-[30rem] md:h-64  ">
                 <iframe
                   src="https://youtube.com/embed/TI5gppbFDK8"
                   className="mx-auto w-full h-full rounded-md"
                 ></iframe>
               </div>
-              <div className=" h-[300px] w-[500px]">
+              <div className="  w-70 h-44 md:w-[30rem] md:h-64  ">
                 <iframe
                   src="https://youtube.com/embed/zuB30480L9w"
                   className="mx-auto w-full h-full rounded-md"
                 ></iframe>
               </div>
-              <div className=" h-[300px] w-[500px]">
+              <div className="  w-70 h-44 md:w-[30rem] md:h-64  ">
                 <iframe
                   src="https://youtube.com/embed/mQvGtwXf1UY"
                   className="mx-auto w-full h-full rounded-md"
