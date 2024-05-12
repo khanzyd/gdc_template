@@ -11,13 +11,36 @@ export default function Footer() {
                 <div className="flex justify-center gap-32 bg-[#a2463B] py-16 text-white">
                     <div className="flex flex-col items-start">
                         <span className="text-2xl mb-5 font-semibold">Quick Links</span>
-                        <Link href="https://dciindia.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">Dental Council Of India</Link>
-                        <Link href="https://medical.maharashtra.gov.in/index.php" className="mb-2 text-xs hover:underline">Medical Education & Drugs Department</Link>
-                        <Link href="https://merciedu.co.in/" className="mb-2 text-xs hover:underline">Medical Education & Research</Link>
-                        <Link href="https://www.msdcmumbai.org.in/MSDCNew/index.html#/Home" className="mb-2 text-xs hover:underline">Maharashtra State Dental Council</Link>
-                        <Link href="http://www.mpsc.gov.in/" className="mb-2 text-xs hover:underline">Maharashtra Public Service Commission</Link>
-                        <Link href="https://cetcell.mahacet.org/" className="mb-2 text-xs hover:underline">CET-CELL</Link>
-                        <Link href="https://www.muhs.ac.in/" className="mb-2 text-xs hover:underline">Maharashtra University Of Health & Science</Link>
+                        <Link href="https://dciindia.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Medical Education & Drugs Department
+                            </li>
+                        </Link>
+                        <Link href="https://merciedu.co.in/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Medical Education & Research
+                            </li>
+                        </Link>
+                        <Link href="https://www.msdcmumbai.org.in/MSDCNew/index.html#/Home" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Maharashtra State Dental Council
+                            </li>
+                        </Link>
+                        <Link href="http://www.mpsc.gov.in/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Maharashtra Public Service Commission
+                            </li>
+                        </Link>
+                        <Link href="https://cetcell.mahacet.org/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                CET-CELL
+                            </li>
+                        </Link>
+                        <Link href="https://www.muhs.ac.in/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Maharashtra University Of Health & Science
+                            </li>
+                        </Link>
                     </div>
                     <div className="flex flex-col items-center">
                         <span className="text-2xl mb-2 font-semibold">Contact Us</span>
@@ -50,7 +73,7 @@ export default function Footer() {
                         <span className="text-2xl mb-2 font-semibold">193,425</span>
                     </div>
                 </div>
-                <div className="bg-[#82261B] text-white py-4 text-center">
+                <div className="bg-[var(--primary-color)] text-white py-4 text-center max-sm:text-xs">
                     © Copyright GDC 2022. Designed and Developed by MIT.
                 </div>
             </div>
