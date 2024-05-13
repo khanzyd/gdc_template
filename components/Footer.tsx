@@ -13,6 +13,11 @@ export default function Footer() {
                         <span className="text-2xl max-sm:text-base mb-5 font-semibold">Quick Links</span>
                         <Link href="https://dciindia.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">
                             <li className="list-[square]">
+                                Dental Council Of India
+                            </li>
+                        </Link>
+                        <Link href="https://medical.maharashtra.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
                                 Medical Education & Drugs Department
                             </li>
                         </Link>
@@ -39,6 +44,11 @@ export default function Footer() {
                         <Link href="https://www.muhs.ac.in/" className="mb-2 text-xs hover:underline">
                             <li className="list-[square]">
                                 Maharashtra University Of Health & Science
+                            </li>
+                        </Link>
+                        <Link href="https://main.icmr.nic.in/" className="mb-2 text-xs hover:underline">
+                            <li className="list-[square]">
+                                Indian Council Of Medical Research
                             </li>
                         </Link>
                     </div>
