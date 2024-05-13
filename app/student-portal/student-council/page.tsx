@@ -81,55 +81,46 @@ export default function Page() {
                         <td>1</td>
                         <td>President</td>
                         <td>A. B. C.</td>
-                        <td>9999999999</td>
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>Vice President Academics and Research</td>
                         <td>D. E. F.</td>
-                        <td>9999999999</td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>Vice President Discipline</td>
                         <td>G. H. I.</td>
-                        <td>9999999999</td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>Vice President Discipline</td>
                         <td>J. K. L.</td>
-                        <td>9999999999</td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>Vice President CSR</td>
                         <td>M. N. O.</td>
-                        <td>9999999999</td>
                     </tr>
                     <tr>
                         <td>6</td>
                         <td>Vice President E-Cell</td>
                         <td>P. Q. R.</td>
-                        <td>9999999999</td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>Vice President Events and Co-curricular</td>
                         <td>S. T. U.</td>
-                        <td>9999999999</td>
                     </tr>
                     <tr>
                         <td>8</td>
                         <td>Vice President Events and Co-curricular</td>
                         <td>V. W. X.</td>
-                        <td>9999999999</td>
                     </tr>
                     <tr>
                         <td>9</td>
                         <td>Vice President Alumni</td>
                         <td>Y. Z.</td>
-                        <td>9999999999</td>
                     </tr>
                 </tbody>
             </table>
