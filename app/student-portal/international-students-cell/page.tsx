@@ -15,7 +15,7 @@ export default function Page() {
             </p>
         </div>
         <div className="pt-8">
-            <h1 className="text-4xl mb-4">
+            <h1 className="font-bold text-xl pb-4">
                 Guidelines for admission of foreign/international students
             </h1>
             <p className="pb-4">
@@ -29,7 +29,7 @@ export default function Page() {
             </p>
         </div>
         <div className="pt-8">
-            <h1 className="text-4xl mb-4">
+            <h1 className="font-bold text-xl pb-4">
                 Eligibility
             </h1>
             <p className="pb-4">
@@ -40,7 +40,7 @@ export default function Page() {
             </p>
         </div>
         <div className="pt-8">
-            <h1 className="text-4xl mb-4">
+            <h1 className="font-bold text-xl pb-4">
                 Admission of international students
             </h1>
             <p className="pb-4">
@@ -54,7 +54,7 @@ export default function Page() {
             </p>
         </div>
         <div className="pt-8">
-            <h1 className="text-4xl mb-4">
+            <h1 className="font-bold text-xl pb-4">
                 Procedure for admissions
             </h1>
             <ol className="list-decimal list-inside">
