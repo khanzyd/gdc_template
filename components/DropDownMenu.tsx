@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import React, { ReactNode, useState } from "react";
 
@@ -24,11 +23,11 @@ const DropDownMenu = (props: {children: ReactNode, links: {name: string, ref: st
             <div className="flex">
                 {props.children}
                 <Image
-                    className={`${dropdown ? "-scale-y-100" : "scale-y-100"} ml-2 duration-100`}
+                    className={`${dropdown ? "rotate-180" : "rotate-90"} ml-1 duration-100`}
                     src="/up.svg"
                     alt=""
-                    height={15}
-                    width={15} />
+                    height={10}
+                    width={10} />
             </div>
             <div
                 id="dropdown"
