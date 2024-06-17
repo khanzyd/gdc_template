@@ -4,22 +4,22 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "template2",
-  description: "template2",
+    title: "template2",
+    description: "template2",
 };
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en" data-theme="bumblebee">
-      <body className="h-screen flex flex-col">
-        <Navbar />
-        <main className="">{children}</main>
-        <Footer/>
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en" data-theme="bumblebee">
+            <body className="h-screen flex flex-col">
+                <Navbar />
+                <main className="">{children}</main>
+                <Footer />
+            </body>
+        </html>
+    );
 }
