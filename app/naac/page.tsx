@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Page(){
+export default function Page() {
     return <div className="sm:px-48 px-4 py-10">
         <h1 className="text-4xl pb-8">NAAC</h1>
         <h2 className="max-sm:text-xl text-2xl pb-4 text-center">
