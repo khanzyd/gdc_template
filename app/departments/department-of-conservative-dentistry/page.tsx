@@ -3,14 +3,12 @@ import Image from "next/image";
 import React from "react";
 
 export default function Page() {
-
   return (
     <div className=" min-h-screen flex flex-col p-3 gap-8">
       <div className=" border-2 border-[#b8483ba5] py-12 text-center rounded-sm  ">
         <h1 className=" capitalize text-4xl font-bold text-[#82261B]">
           {"Department of Conservative Dentistry"}
         </h1>
-        {/* Put the dept name from JSON  */}
       </div>
       <div
         id="about"
@@ -27,27 +25,26 @@ export default function Page() {
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
             expedita sit, aliquid fuga, quia dignissimos neque dolore corporis
-            officia eos quidem. Sunt nostrum doloremque eius suscipit
-            obcaecati consequuntur perferendis eum veniam accusamus! Harum
-            consequatur atque veritatis soluta accusantium porro, animi ad
-            nisi reprehenderit laboriosam? Rerum, cumque ullam animi quod
-            consectetur consequuntur repudiandae, aut non illum nostrum
-            officiis quas, vitae nesciunt magnam rem asperiores iste inventore
-            placeat obcaecati sequi vero illo quae! Facere unde necessitatibus
-            ex dolore odit non corporis beatae. Debitis ea similique velit
-            amet, porro at fugit in esse magni facilis iure doloribus
-            perspiciatis quos! Commodi corrupti fugiat eius eum voluptatem
-            velit incidunt veritatis similique hic? Reprehenderit, placeat.
-            Totam ullam et expedita dolor non provident debitis saepe modi
-            labore, odit velit optio quisquam maxime illum quasi quo itaque
-            dolorum! Rem ea vero amet repudiandae dolore ipsum quod maxime
-            inventore accusamus nulla? Adipisci eaque quasi rerum fugit non!
-            Nam earum accusantium quasi eligendi odit a esse similique
-            delectus assumenda quae temporibus ut sequi maxime, reprehenderit
-            enim beatae labore ratione commodi, atque repellat blanditiis
-            adipisci fuga! Quas, hic! Unde itaque sunt nulla deleniti autem
-            vel iste quia iusto libero in mollitia fugit, earum nobis cumque
-            iure necessitatibus, amet cupiditate debitis natus?
+            officia eos quidem. Sunt nostrum doloremque eius suscipit obcaecati
+            consequuntur perferendis eum veniam accusamus! Harum consequatur
+            atque veritatis soluta accusantium porro, animi ad nisi
+            reprehenderit laboriosam? Rerum, cumque ullam animi quod consectetur
+            consequuntur repudiandae, aut non illum nostrum officiis quas, vitae
+            nesciunt magnam rem asperiores iste inventore placeat obcaecati
+            sequi vero illo quae! Facere unde necessitatibus ex dolore odit non
+            corporis beatae. Debitis ea similique velit amet, porro at fugit in
+            esse magni facilis iure doloribus perspiciatis quos! Commodi
+            corrupti fugiat eius eum voluptatem velit incidunt veritatis
+            similique hic? Reprehenderit, placeat. Totam ullam et expedita dolor
+            non provident debitis saepe modi labore, odit velit optio quisquam
+            maxime illum quasi quo itaque dolorum! Rem ea vero amet repudiandae
+            dolore ipsum quod maxime inventore accusamus nulla? Adipisci eaque
+            quasi rerum fugit non! Nam earum accusantium quasi eligendi odit a
+            esse similique delectus assumenda quae temporibus ut sequi maxime,
+            reprehenderit enim beatae labore ratione commodi, atque repellat
+            blanditiis adipisci fuga! Quas, hic! Unde itaque sunt nulla deleniti
+            autem vel iste quia iusto libero in mollitia fugit, earum nobis
+            cumque iure necessitatibus, amet cupiditate debitis natus?
           </p>
         </div>
       </div>
@@ -59,14 +56,54 @@ export default function Page() {
           </h1>
         </div>
         <div className=" grid place-items-center sm:grid-cols-4 grid-cols-1 p-6 gap-4  ">
-                                  <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
-                                  <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
-                                  <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
-                                  <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
-                                  <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
-                                  <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
-                                  <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
-                                  <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+          <Faculty
+            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
+            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
+            facultyName="Dr. Govind Raghunath Suryawanshi"
+            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+          />
+          <Faculty
+            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
+            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
+            facultyName="Dr. Govind Raghunath Suryawanshi"
+            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+          />
+          <Faculty
+            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
+            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
+            facultyName="Dr. Govind Raghunath Suryawanshi"
+            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+          />
+          <Faculty
+            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
+            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
+            facultyName="Dr. Govind Raghunath Suryawanshi"
+            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+          />
+          <Faculty
+            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
+            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
+            facultyName="Dr. Govind Raghunath Suryawanshi"
+            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+          />
+          <Faculty
+            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
+            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
+            facultyName="Dr. Govind Raghunath Suryawanshi"
+            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+          />
+          <Faculty
+            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
+            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
+            facultyName="Dr. Govind Raghunath Suryawanshi"
+            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+          />
+          <Faculty
+            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
+            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
+            facultyName="Dr. Govind Raghunath Suryawanshi"
+            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+          />
         </div>
       </div>
       <hr />
@@ -78,27 +115,26 @@ export default function Page() {
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
             expedita sit, aliquid fuga, quia dignissimos neque dolore corporis
-            officia eos quidem. Sunt nostrum doloremque eius suscipit
-            obcaecati consequuntur perferendis eum veniam accusamus! Harum
-            consequatur atque veritatis soluta accusantium porro, animi ad
-            nisi reprehenderit laboriosam? Rerum, cumque ullam animi quod
-            consectetur consequuntur repudiandae, aut non illum nostrum
-            officiis quas, vitae nesciunt magnam rem asperiores iste inventore
-            placeat obcaecati sequi vero illo quae! Facere unde necessitatibus
-            ex dolore odit non corporis beatae. Debitis ea similique velit
-            amet, porro at fugit in esse magni facilis iure doloribus
-            perspiciatis quos! Commodi corrupti fugiat eius eum voluptatem
-            velit incidunt veritatis similique hic? Reprehenderit, placeat.
-            Totam ullam et expedita dolor non provident debitis saepe modi
-            labore, odit velit optio quisquam maxime illum quasi quo itaque
-            dolorum! Rem ea vero amet repudiandae dolore ipsum quod maxime
-            inventore accusamus nulla? Adipisci eaque quasi rerum fugit non!
-            Nam earum accusantium quasi eligendi odit a esse similique
-            delectus assumenda quae temporibus ut sequi maxime, reprehenderit
-            enim beatae labore ratione commodi, atque repellat blanditiis
-            adipisci fuga! Quas, hic! Unde itaque sunt nulla deleniti autem
-            vel iste quia iusto libero in mollitia fugit, earum nobis cumque
-            iure necessitatibus, amet cupiditate debitis natus?
+            officia eos quidem. Sunt nostrum doloremque eius suscipit obcaecati
+            consequuntur perferendis eum veniam accusamus! Harum consequatur
+            atque veritatis soluta accusantium porro, animi ad nisi
+            reprehenderit laboriosam? Rerum, cumque ullam animi quod consectetur
+            consequuntur repudiandae, aut non illum nostrum officiis quas, vitae
+            nesciunt magnam rem asperiores iste inventore placeat obcaecati
+            sequi vero illo quae! Facere unde necessitatibus ex dolore odit non
+            corporis beatae. Debitis ea similique velit amet, porro at fugit in
+            esse magni facilis iure doloribus perspiciatis quos! Commodi
+            corrupti fugiat eius eum voluptatem velit incidunt veritatis
+            similique hic? Reprehenderit, placeat. Totam ullam et expedita dolor
+            non provident debitis saepe modi labore, odit velit optio quisquam
+            maxime illum quasi quo itaque dolorum! Rem ea vero amet repudiandae
+            dolore ipsum quod maxime inventore accusamus nulla? Adipisci eaque
+            quasi rerum fugit non! Nam earum accusantium quasi eligendi odit a
+            esse similique delectus assumenda quae temporibus ut sequi maxime,
+            reprehenderit enim beatae labore ratione commodi, atque repellat
+            blanditiis adipisci fuga! Quas, hic! Unde itaque sunt nulla deleniti
+            autem vel iste quia iusto libero in mollitia fugit, earum nobis
+            cumque iure necessitatibus, amet cupiditate debitis natus?
           </p>
         </div>
       </div>
@@ -110,27 +146,26 @@ export default function Page() {
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
             expedita sit, aliquid fuga, quia dignissimos neque dolore corporis
-            officia eos quidem. Sunt nostrum doloremque eius suscipit
-            obcaecati consequuntur perferendis eum veniam accusamus! Harum
-            consequatur atque veritatis soluta accusantium porro, animi ad
-            nisi reprehenderit laboriosam? Rerum, cumque ullam animi quod
-            consectetur consequuntur repudiandae, aut non illum nostrum
-            officiis quas, vitae nesciunt magnam rem asperiores iste inventore
-            placeat obcaecati sequi vero illo quae! Facere unde necessitatibus
-            ex dolore odit non corporis beatae. Debitis ea similique velit
-            amet, porro at fugit in esse magni facilis iure doloribus
-            perspiciatis quos! Commodi corrupti fugiat eius eum voluptatem
-            velit incidunt veritatis similique hic? Reprehenderit, placeat.
-            Totam ullam et expedita dolor non provident debitis saepe modi
-            labore, odit velit optio quisquam maxime illum quasi quo itaque
-            dolorum! Rem ea vero amet repudiandae dolore ipsum quod maxime
-            inventore accusamus nulla? Adipisci eaque quasi rerum fugit non!
-            Nam earum accusantium quasi eligendi odit a esse similique
-            delectus assumenda quae temporibus ut sequi maxime, reprehenderit
-            enim beatae labore ratione commodi, atque repellat blanditiis
-            adipisci fuga! Quas, hic! Unde itaque sunt nulla deleniti autem
-            vel iste quia iusto libero in mollitia fugit, earum nobis cumque
-            iure necessitatibus, amet cupiditate debitis natus?
+            officia eos quidem. Sunt nostrum doloremque eius suscipit obcaecati
+            consequuntur perferendis eum veniam accusamus! Harum consequatur
+            atque veritatis soluta accusantium porro, animi ad nisi
+            reprehenderit laboriosam? Rerum, cumque ullam animi quod consectetur
+            consequuntur repudiandae, aut non illum nostrum officiis quas, vitae
+            nesciunt magnam rem asperiores iste inventore placeat obcaecati
+            sequi vero illo quae! Facere unde necessitatibus ex dolore odit non
+            corporis beatae. Debitis ea similique velit amet, porro at fugit in
+            esse magni facilis iure doloribus perspiciatis quos! Commodi
+            corrupti fugiat eius eum voluptatem velit incidunt veritatis
+            similique hic? Reprehenderit, placeat. Totam ullam et expedita dolor
+            non provident debitis saepe modi labore, odit velit optio quisquam
+            maxime illum quasi quo itaque dolorum! Rem ea vero amet repudiandae
+            dolore ipsum quod maxime inventore accusamus nulla? Adipisci eaque
+            quasi rerum fugit non! Nam earum accusantium quasi eligendi odit a
+            esse similique delectus assumenda quae temporibus ut sequi maxime,
+            reprehenderit enim beatae labore ratione commodi, atque repellat
+            blanditiis adipisci fuga! Quas, hic! Unde itaque sunt nulla deleniti
+            autem vel iste quia iusto libero in mollitia fugit, earum nobis
+            cumque iure necessitatibus, amet cupiditate debitis natus?
           </p>
         </div>
       </div>
@@ -146,7 +181,7 @@ export default function Page() {
             </div>
             <Image
               src={"/teeth.svg"}
-              className=" "
+              className=""
               height={25}
               width={25}
               alt=""
@@ -155,26 +190,26 @@ export default function Page() {
               <hr className="bg-black border-none h-[1.5px]" />
             </div>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center py-5 justify-center gap-y-5">
-            <div className=" w-70 h-44 md:w-[30rem] md:h-64 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center py-10 justify-center gap-y-5">
+            <div className=" w-70 h-44 md:w-[30rem] md:h-64  ">
               <iframe
                 src="https://youtube.com/embed/H_ThvSdZ_HE"
-                className="w-full h-full rounded-md"
+                className="mx-auto w-full h-full rounded-md"
               ></iframe>
             </div>
-            <div className=" w-70 h-44 md:w-[30rem] md:h-64  ">
+            <div className=" w-70 h-44 md:w-[30rem] md:h-64 ">
               <iframe
                 src="https://youtube.com/embed/TI5gppbFDK8"
                 className="mx-auto w-full h-full rounded-md"
               ></iframe>
             </div>
-            <div className="  w-70 h-44 md:w-[30rem] md:h-64  ">
+            <div className=" w-70 h-44 md:w-[30rem] md:h-64 ">
               <iframe
                 src="https://youtube.com/embed/zuB30480L9w"
                 className="mx-auto w-full h-full rounded-md"
               ></iframe>
             </div>
-            <div className="  w-70 h-44 md:w-[30rem] md:h-64  ">
+            <div className=" w-70 h-44 md:w-[30rem] md:h-64 ">
               <iframe
                 src="https://youtube.com/embed/mQvGtwXf1UY"
                 className="mx-auto w-full h-full rounded-md"
