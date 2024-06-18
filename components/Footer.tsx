@@ -1,5 +1,3 @@
-import Link from "next/link"
-import Image from "next/image"
 import { MdEmail } from "react-icons/md";
 import { MdOutlineContactSupport } from "react-icons/md";
 
@@ -11,46 +9,46 @@ export default function Footer() {
                 <div className="flex max-sm:flex-col max-sm:items-center justify-center gap-32 max-sm:gap-10 bg-[#a2463B] py-16 text-white">
                     <div className="flex flex-col items-start">
                         <span className="text-2xl max-sm:text-base mb-5 font-semibold">Quick Links</span>
-                        <Link href="https://dciindia.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">
-                            <li className="list-[square]">
+                        <a href="https://dciindia.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">
+                            <p className="list-[square]">
                                 Dental Council Of India
-                            </li>
-                        </Link>
-                        <Link href="https://medical.maharashtra.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">
-                            <li className="list-[square]">
+                            </p>
+                        </a>
+                        <a href="https://medical.maharashtra.gov.in/" target="_blank" className="mb-2 text-xs hover:underline">
+                            <p className="list-[square]">
                                 Medical Education & Drugs Department
-                            </li>
-                        </Link>
-                        <Link href="https://merciedu.co.in/" className="mb-2 text-xs hover:underline">
-                            <li className="list-[square]">
+                            </p>
+                        </a>
+                        <a href="https://merciedu.co.in/" className="mb-2 text-xs hover:underline">
+                            <p className="list-[square]">
                                 Medical Education & Research
-                            </li>
-                        </Link>
-                        <Link href="https://www.msdcmumbai.org.in/MSDCNew/index.html#/Home" className="mb-2 text-xs hover:underline">
-                            <li className="list-[square]">
+                            </p>
+                        </a>
+                        <a href="https://www.msdcmumbai.org.in/MSDCNew/index.html#/Home" className="mb-2 text-xs hover:underline">
+                            <p className="list-[square]">
                                 Maharashtra State Dental Council
-                            </li>
-                        </Link>
-                        <Link href="http://www.mpsc.gov.in/" className="mb-2 text-xs hover:underline">
-                            <li className="list-[square]">
+                            </p>
+                        </a>
+                        <a href="http://www.mpsc.gov.in/" className="mb-2 text-xs hover:underline">
+                            <p className="list-[square]">
                                 Maharashtra Public Service Commission
-                            </li>
-                        </Link>
-                        <Link href="https://cetcell.mahacet.org/" className="mb-2 text-xs hover:underline">
-                            <li className="list-[square]">
+                            </p>
+                        </a>
+                        <a href="https://cetcell.mahacet.org/" className="mb-2 text-xs hover:underline">
+                            <p className="list-[square]">
                                 CET-CELL
-                            </li>
-                        </Link>
-                        <Link href="https://www.muhs.ac.in/" className="mb-2 text-xs hover:underline">
-                            <li className="list-[square]">
+                            </p>
+                        </a>
+                        <a href="https://www.muhs.ac.in/" className="mb-2 text-xs hover:underline">
+                            <p className="list-[square]">
                                 Maharashtra University Of Health & Science
-                            </li>
-                        </Link>
-                        <Link href="https://main.icmr.nic.in/" className="mb-2 text-xs hover:underline">
-                            <li className="list-[square]">
+                            </p>
+                        </a>
+                        <a href="https://main.icmr.nic.in/" className="mb-2 text-xs hover:underline">
+                            <p className="list-[square]">
                                 Indian Council Of Medical Research
-                            </li>
-                        </Link>
+                            </p>
+                        </a>
                     </div>
                     <div className="flex flex-col items-center">
                         <span className="text-2xl max-sm:text-base mb-2 font-semibold">Contact Us</span>
