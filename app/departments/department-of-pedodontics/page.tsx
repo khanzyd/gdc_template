@@ -58,14 +58,14 @@ export default function Page() {
             </h1>
           </div>
           <div className=" grid place-items-center sm:grid-cols-4 grid-cols-1 p-6 gap-4  ">
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
           </div>
         </div>
         <hr />
