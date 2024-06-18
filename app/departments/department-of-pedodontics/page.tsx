@@ -1,47 +1,11 @@
 import Faculty from "@/components/department/Faculty";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 export default function Page() {
   return (
-    <div className="  w-full min-h-screen flex ">
-      <div className="sm:flex hidden basis-1/5 border-r-[#82251b6e] border-r-2 ">
-        <div className=" w-full flex flex-col gap-2 items-start justify-start p-4">
-          <Link
-            className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/department-of-pedodontics/#about`}
-          >
-            About
-          </Link>
-          <Link
-            className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/department-of-pedodontics/#faculty`}
-          >
-            Faculty
-          </Link>
-          <Link
-            className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/department-of-pedodontics/#vision`}
-          >
-            Vision
-          </Link>
-          <Link
-            className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/department-of-pedodontics/#mission`}
-          >
-            Mission
-          </Link>
-          <Link
-            className=" w-full rounded shadow-md outline-1 outline-[#82251b67] outline pl-4 py-3 text-lg font-medium text-neutral-500 hover:text-orange-600"
-            href={`/departments/department-of-pedodontics/#videos`}
-          >
-            Videos
-          </Link>
-        </div>
-      </div>
-      <div className="flex sm:basis-4/5 overflow-y-scroll max-h-screen flex-col p-3 gap-8">
-        <div className=" w-full  border-2 border-[#b8483ba5] py-12 text-center rounded-sm  ">
+    <div className=" min-h-screen flex flex-col p-3 gap-8">
+        <div className=" border-2 border-[#b8483ba5] py-12 text-center rounded-sm  ">
           <h1 className=" capitalize text-4xl font-bold text-[#82261B]">
             {"Department of Pedodontics"}
           </h1>
@@ -94,14 +58,14 @@ export default function Page() {
             </h1>
           </div>
           <div className=" grid place-items-center sm:grid-cols-4 grid-cols-1 p-6 gap-4  ">
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
-            <Faculty />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
+                                    <Faculty profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png" cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf" facultyName="Dr. Govind Raghunath Suryawanshi" facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)" />
           </div>
         </div>
         <hr />
@@ -218,7 +182,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 }
