@@ -5,7 +5,7 @@ import { MdOutlineContactSupport } from "react-icons/md";
 export default function Footer() {
     return (
         <>
-            <div className="mt-auto">
+            <div className="mt-8">
                 <div className="flex max-sm:flex-col max-sm:items-center justify-center gap-32 max-sm:gap-10 bg-[#a2463B] py-16 text-white">
                     <div className="flex flex-col items-start">
                         <span className="text-2xl max-sm:text-base mb-5 font-semibold">Quick Links</span>
