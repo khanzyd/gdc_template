@@ -49,52 +49,40 @@ export default function Page() {
         </div>
         <div className=" grid place-items-center sm:grid-cols-4 grid-cols-1 p-6 gap-4  ">
           <Faculty
-            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
-            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
-            facultyName="Dr. Govind Raghunath Suryawanshi"
-            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+            profilePicSrc="/departments/department-of-oral-surgery/Kanchan-Shah/Photo.png"
+            cvSrc="/departments/department-of-oral-surgery/Kanchan-Shah/Kanchan-Shah.pdf"
+            facultyName="Dr.Kanchan Shah"
+            facultyDesignation="HOD & Professor"
           />
           <Faculty
-            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
-            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
-            facultyName="Dr. Govind Raghunath Suryawanshi"
-            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+            profilePicSrc="/departments/department-of-oral-surgery/Ashlesha-Ghormade/Photo.png"
+            cvSrc="/departments/department-of-oral-surgery/Ashlesha-Ghormade/Ashlesha-Ghormade.pdf"
+            facultyName="Dr. Ashlesha Ghormade"
+            facultyDesignation="Assistant Professor"
           />
           <Faculty
-            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
-            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
-            facultyName="Dr. Govind Raghunath Suryawanshi"
-            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+            profilePicSrc="/departments/department-of-oral-surgery/Jayant-Landge/Photo.png"
+            cvSrc="/departments/department-of-oral-surgery/Jayant-Landge/Jayant-Landge.pdf"
+            facultyName="Dr. Jayant S. Landge "
+            facultyDesignation="Associate Professor and Post Graduate Teacher"
           />
           <Faculty
-            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
-            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
-            facultyName="Dr. Govind Raghunath Suryawanshi"
-            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+            profilePicSrc="/departments/department-of-oral-surgery/Priti-Bhutada/Photo.png"
+            cvSrc="/departments/department-of-oral-surgery/Priti-Bhutada/Priti-Bhutada.pdf"
+            facultyName="Dr. Priti N. Bhutada"
+            facultyDesignation="Dental Surgeon"
           />
           <Faculty
-            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
-            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
-            facultyName="Dr. Govind Raghunath Suryawanshi"
-            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+            profilePicSrc="/departments/department-of-oral-surgery/Shelly-Sharma/Photo.png"
+            cvSrc="/departments/department-of-oral-surgery/Shelly-Sharma/Shelly-Sharma.pdf"
+            facultyName="Dr. Shelly Sharma"
+            facultyDesignation="Assistant Professor"
           />
           <Faculty
-            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
-            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
-            facultyName="Dr. Govind Raghunath Suryawanshi"
-            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
-          />
-          <Faculty
-            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
-            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
-            facultyName="Dr. Govind Raghunath Suryawanshi"
-            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
-          />
-          <Faculty
-            profilePicSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/profile_pic.png"
-            cvSrc="/departments/department-of-orthodontics/Dr_Govind_Raghunath_Suryawanshi/cv.pdf"
-            facultyName="Dr. Govind Raghunath Suryawanshi"
-            facultyDesignation="ASSOCIATE PROFESSOR (ACADEMIC)"
+            profilePicSrc=""
+            cvSrc="/departments/department-of-oral-surgery/Shaikh-Ayub/Shaikh-Ayub.pdf"
+            facultyName="Dr .Shaikh Wahab Ayub"
+            facultyDesignation="MDS (OMFS SURGEON)"
           />
         </div>
       </div>
