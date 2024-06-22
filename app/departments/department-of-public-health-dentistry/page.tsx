@@ -4,14 +4,16 @@ import React from "react";
 
 export default function Page() {
   return (
-    <div className=" min-h-screen flex flex-col p-3 gap-8">
+    <div className="lg:max-w-[70%] m-auto min-h-screen flex flex-col p-3 gap-8">
       <div className=" border-2 border-[#b8483ba5] py-12 text-center rounded-sm  ">
         <h1 className=" capitalize text-4xl font-bold text-[#82261B]">
           {"Department of Public Health Dentistry"}
         </h1>
-        {/* Put the dept name from JSON  */}
       </div>
-      <div
+      <h1 className=" text-center text-6xl font-bold mt-10 tracking-wide">
+        Site Under Maintainance
+      </h1>
+      {/* <div
         id="about"
         className=" w-full flex flex-col justify-center items-center py-3"
       >
@@ -181,7 +183,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
