@@ -47,7 +47,7 @@ export default function Page() {
             Our Faculty
           </h1>
         </div>
-        <div className=" grid place-items-center sm:grid-cols-4 grid-cols-1 p-6 gap-4  ">
+        <div className=" flex flex-wrap gap-8 justify-center p-6 ">
           <Faculty
             profilePicSrc="/departments/department-of-oral-surgery/Kanchan-Shah/Photo.png"
             cvSrc="/departments/department-of-oral-surgery/Kanchan-Shah/Kanchan-Shah.pdf"
