@@ -13,10 +13,10 @@ const Navbar = () => {
     return (
         <>
             <div className="bg-[#82261B] hidden text-white justify-end px-16 items-center font-semibold tracking-wide text-sm sm:flex">
-                <SecondaryNavbarItem>Career</SecondaryNavbarItem>
-                <SecondaryNavbarItem>Knowledge Resource Center</SecondaryNavbarItem>
-                <SecondaryNavbarItem>Student Support</SecondaryNavbarItem>
-                <SecondaryNavbarItem>ERP Login</SecondaryNavbarItem>
+                <SecondaryNavbarItem>Site Map</SecondaryNavbarItem>
+                <SecondaryNavbarItem>Facebook</SecondaryNavbarItem>
+                <SecondaryNavbarItem>Youtube</SecondaryNavbarItem>
+                <SecondaryNavbarItem>Twitter</SecondaryNavbarItem>
             </div>
             <div className="px-[5%] flex justify-between items-center cover-image relative drop-shadow-2xl">
                 <div className="flex items-center gap-4 sm:gap-8 py-4">
