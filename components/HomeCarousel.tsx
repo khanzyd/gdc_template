@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import leftArrow from "@/public/left-arrow.svg";
 import rightArrow from "@/public/right-arrow.svg"
 
@@ -18,6 +18,10 @@ function handleCarouselSlide(setCarouselSlidePoint: Function, carouselSlidePoint
 
 const Home_Carousel = (props: { imgSrcs: string[] }) => {
     const [carouselSlidePoint, setCarouselSlidePoint] = useState(0);
+    useEffect(() => {
+        const slideInterval = setInterval(() => handleCarouselSlide(setCarouselSlidePoint, carouselSlidePoint, props.imgSrcs.length, -1), 3000);
+        return () => clearInterval(slideInterval);
+    })
 
     return (
         <div>
