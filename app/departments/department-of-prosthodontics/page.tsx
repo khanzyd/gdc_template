@@ -90,7 +90,7 @@ export default function Page() {
               facultyDesignation="Professor & Head of Department, Dept. of Periodontology"
             />
             <Faculty
-              profilePicSrc="/departments/department-of-prosthodontics/Ashok-Bhansali/photo.png"
+              profilePicSrc="/departments/department-of-prosthodontics/Ashok-Bhansali/Photo.png"
               cvSrc="/departments/department-of-prosthodontics/Ashok-Bhansali/Dr Bhansali CV WEBSITE_122707.pdf"
               facultyName="Dr. Ashok Bhansali"
               facultyDesignation="Associate profesor, Dept. of Periodontology"
@@ -162,30 +162,30 @@ export default function Page() {
           <h1 className=" text-2xl font-semibold text-[var(--primary-color)] text-center">
             Vision & Mission
           </h1>
-          <p className="mt-4 list-item">
+          <p className="mt-4 list-item list-inside">
             Our vision is leadership, locally and regionally in patient care,
             teaching, scientific research and community services in the field of
             periodontology.
           </p>
-          <p className="mt-2 list-item">
+          <p className="mt-2 list-item list-inside">
             Our mission is to seek excellence in education through innovation,
             applied technology and by creating atmosphere for learning and
             personal career development.
           </p>
-          <p className="mt-2 list-item">
+          <p className="mt-2 list-item list-inside">
             Our department is committed to advancing the science of
             periodontology and creating new knowledge.
           </p>
-          <p className="mt-2 list-item">
+          <p className="mt-2 list-item list-inside">
             We seek to serve the community, the state and the profession by
             providing highest standards of periodontal treatment by means of
             advanced implantology and hard and soft tissue laser procedures.
           </p>
-          <p className="mt-2 list-item">
+          <p className="mt-2 list-item list-inside">
             We foster periodontal care to improve oral hygiene and overall
             health.
           </p>
-          <p className="mt-2 list-item">
+          <p className="mt-2 list-item list-inside">
             We aspire to educate high quality individuals not only to serve as
             outstanding clinicians and community leaders, but also academic
             leaders through research by starting PhD in the near future who can
@@ -197,7 +197,7 @@ export default function Page() {
           <h1 className="pb-4 text-lg font-bold text-[var(--primary-color)]">
             PATIENTS SERVICE
           </h1>
-          <ul className="list-disc">
+          <ul className="list-disc list-inside">
             <li>Scaling and root planning</li>
             <li>Occlusal Therapy –Coronoplasty, Splinting</li>
             <li>
@@ -218,7 +218,7 @@ export default function Page() {
             <li>
               {" "}
               Periodontal Plastic surgeries
-              <ul className="list-decimal list-inside">
+              <ul className="list-decimal list-inside ml-4">
                 <li>Frenectomy</li>
                 <li>Frenotomy</li>
                 <li>Vestibuloplasty</li>
@@ -233,10 +233,10 @@ export default function Page() {
           </ul>
 
           <div>
-            <h3 className="text-base list-item font-bold mt-4 mb-2 text-[var(--primary-color)]">
+            <h3 className="text-base list-item list-inside font-bold mt-4 mb-2 text-[var(--primary-color)]">
               Miscellaneous Surgical Procedures:
             </h3>
-            <ul className="list-decimal list-inside">
+            <ul className="list-decimal list-inside ml-4">
               <li>Abscess drainage</li>
               <li>Gingival depigmentation</li>
               <li>Epulis excisions</li>
@@ -246,10 +246,10 @@ export default function Page() {
           </div>
 
           <div>
-            <h3 className="text-base list-item font-bold mt-4 mb-2 text-[var(--primary-color)]">
+            <h3 className="text-base list-item list-inside font-bold mt-4 mb-2 text-[var(--primary-color)]">
               Interdisciplinary Treatment Modalities
             </h3>
-            <ul className="list-disc list-inside">
+            <ul className="list-disc list-inside ml-4">
               <li>Endodontic-Periodontic Lesions</li>
               <li>Hemisection & Bicuspidization</li>
               <li>Root Resection</li>
