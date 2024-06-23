@@ -21,8 +21,8 @@ export default function Page() {
           height={200}
           className=" rounded"
         /> */}
-        <div className=" p-3 text-justify text-lg">
-          <h1 className="text-2xl font-bold text-[var(--primary-color)] text-center mb-4">
+        <div className=" p-3 text-justify text-lg max-sm:p-4 max-sm:text-base">
+          <h1 className="text-2xl font-bold text-[var(--primary-color)] text-center mb-4 ">
             HoD's Message
           </h1>
           <p>
@@ -47,7 +47,7 @@ export default function Page() {
             Our Faculty
           </h1>
         </div>
-        <div className=" grid place-items-center sm:grid-cols-4 grid-cols-1 p-6 gap-4  ">
+        <div className=" flex flex-wrap gap-8 justify-center p-6 ">
           <Faculty
             profilePicSrc="/departments/department-of-oral-surgery/Kanchan-Shah/Photo.png"
             cvSrc="/departments/department-of-oral-surgery/Kanchan-Shah/Kanchan-Shah.pdf"
@@ -87,7 +87,7 @@ export default function Page() {
         </div>
       </div>
       <div id="vision">
-        <div className="p-4 my-8 text-lg text-justify shadow-md rounded-sm border-t-2 border-slate-100">
+        <div className="p-4 my-8 text-lg text-justify shadow-md rounded-sm border-t-2 border-slate-100 max-sm:p-4 max-sm:text-base">
           <h1 className=" text-2xl font-semibold text-[var(--primary-color)] text-center py-1">
             Vision
           </h1>
@@ -114,7 +114,7 @@ export default function Page() {
         </div>
       </div>
       <div id="mission">
-        <div className=" p-3 text-lg text-justify shadow-md rounded-sm border-t-2 border-slate-100 ">
+        <div className=" p-3 text-lg text-justify shadow-md rounded-sm border-t-2 border-slate-100 max-sm:p-4 max-sm:text-base">
           <h1 className=" text-2xl font-semibold text-[var(--primary-color)] text-center py-1">
             Mission
           </h1>

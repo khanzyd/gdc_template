@@ -10,7 +10,7 @@ function Faculty(props: { profilePicSrc: string, cvSrc: string, facultyName: str
                 alt="faculty"
                 width={200}
                 height={200}
-                className='object-cover w-full h-[300px]'
+                className='object-cover  h-[300px] w-auto'
             />
             <a
                 className="hover:underline text-[var(--primary-color)]"
