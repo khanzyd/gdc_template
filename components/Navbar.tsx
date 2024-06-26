@@ -11,64 +11,69 @@ import { useState } from "react";
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <>
-            <div className="bg-[#82261B] hidden text-white justify-end px-16 items-center font-semibold tracking-wide text-sm sm:flex">
-                <SecondaryNavbarItem>Site Map</SecondaryNavbarItem>
-                <SecondaryNavbarItem>Facebook</SecondaryNavbarItem>
-                <SecondaryNavbarItem>Youtube</SecondaryNavbarItem>
-                <SecondaryNavbarItem>Twitter</SecondaryNavbarItem>
+        <div>
+            <div className="bg-[var(--primary-color)] text-white justify-end lg:px-16 items-center tracking-wide text-xs lg:text-sm flex gap-4 p-2">
+                <p>
+                    Email: GDC_aurangabad@edu.in
+                </p>
+                <p>
+                    Phone: 91+ 99990111
+                </p>
+                {/* <SecondaryNavbarItem reference="">Important Notice</SecondaryNavbarItem>
+                <SecondaryNavbarItem reference="">Gallery</SecondaryNavbarItem>
+                <SecondaryNavbarItem reference="">Site Map</SecondaryNavbarItem> */}
+                {/* <SecondaryNavbarItem reference="https://www.facebook.com/profile.php?id=100063937994949&mibextid=ZbWKwL">Facebook</SecondaryNavbarItem>
+                <SecondaryNavbarItem reference="">Youtube</SecondaryNavbarItem>
+                <SecondaryNavbarItem reference="">Twitter</SecondaryNavbarItem> */}
             </div>
-            <div className="px-[5%] flex justify-between items-center cover-image relative drop-shadow-2xl">
-                <div className="flex items-center gap-4 sm:gap-8 py-4">
-                    <Image
-                        src={"/gdclogo1.png"}
-                        className="mr-2 h-24 w-24 sm:h-36 sm:w-36"
-                        alt=""
-                        height={"150"}
-                        width={"150"}
-                    />
-                    <div className=" ">
-                        <div className=" pl-1 text-start mb-3">
-                            <h2 className="text-base sm:text-4xl font-bold">
-                                Government Dental College &amp; Hospital,
-                            </h2>
-                            <p className="text-sm sm:text-xl font-semibold">
-                                Chhatrapati sambajinagar
-                            </p>
-                        </div>
-                        <div className="flex">
-                            <Image
-                                src={"/NAAC.png"}
-                                className="h-8 w-8 sm:h-14 sm:w-14 rounded-full border-4 border-slate-600 mr-2"
-                                height={60}
-                                width={60}
-                                alt=""
-                            />
-                            <Image
-                                src={"/ACCRED2.png"}
-                                className="h-8 w-8 sm:h-14 sm:w-14 rounded-full border-4 border-slate-600 mr-2"
-                                height={60}
-                                width={60}
-                                alt=""
-                            />
-                            <Image
-                                src={"/NAAC.png"}
-                                className="h-8 w-8 sm:h-14 sm:w-14 rounded-full border-4 border-slate-600 mr-2"
-                                height={60}
-                                width={60}
-                                alt=""
-                            />
-                            <Image
-                                src={"/ACCRED3.png"}
-                                className="h-8 w-8 sm:h-14 sm:w-14 rounded-full border-4 border-slate-600 bg-slate-200"
-                                height={60}
-                                width={60}
-                                alt=""
-                            />
-                        </div>
-                    </div>
+            <div className="text-[var(--primary-color)] flex flex-wrap justify-center items-center py-4 lg:py-8 px-4 drop-shadow-lg">
+                <Image
+                    src={"/gdclogo1.png"}
+                    className="h-24 w-24 lg:h-36 lg:w-36"
+                    alt=""
+                    height={"150"}
+                    width={"150"} />
+                <div className="text-center order-2 lg:order-1 m-1 lg:m-4">
+                    <h2 className="text-sm lg:text-2xl font-extrabold">
+                        GOVERNMENT DENTAL COLLEGE &amp; HOSPITAL,
+                    </h2>
+                    <h2 className="text-sm lg:text-2xl font-extrabold mb-1">
+                        CHHATRAPATI SAMBAJINAGAR
+                    </h2>
+                    <h2 className="text-xs lg:text-base font-extrabold">
+                        Affiliated to Maharashtra Institute of Health Sciences
+                    </h2>
+                    <h2 className="text-xs lg:text-base font-extrabold">
+                        Recognized by Dental College of India, New Delhi
+                    </h2>
                 </div>
-                <div className="hidden sm:flex flex-col justify-evenly h-full px-2">
+                <div className="flex order-1 lg:order-2">
+                    <Image
+                        src={"/NAAC.png"}
+                        className="h-10 w-10 lg:h-20 lg:w-20 rounded-full border-4 border-slate-600 mr-2"
+                        height={60}
+                        width={60}
+                        alt="" />
+                    <Image
+                        src={"/ACCRED2.png"}
+                        className="h-10 w-10 lg:h-20 lg:w-20 rounded-full border-4 border-slate-600 mr-2"
+                        height={60}
+                        width={60}
+                        alt="" />
+                    <Image
+                        src={"/NAAC.png"}
+                        className="h-10 w-10 lg:h-20 lg:w-20 rounded-full border-4 border-slate-600 mr-2"
+                        height={60}
+                        width={60}
+                        alt="" />
+                    <Image
+                        src={"/ACCRED3.png"}
+                        className="h-10 w-10 lg:h-20 lg:w-20 rounded-full border-4 border-slate-600 bg-slate-200"
+                        height={60}
+                        width={60}
+                        alt="" />
+                </div>
+                {/* <div className="hidden lg:flex flex-col justify-evenly h-full px-2">
                     <div>
                         <h3 className="flex font-bold items-center">
                             <MdEmail className=" text-xl" />
@@ -88,11 +93,11 @@ const Navbar = () => {
                             student sec: 91+ 90002101
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
 
-            <div className="bg-[var(--primary-color)] text-white flex flex-col text-sm shadow-lg font-semibold max-sm:p-4 pr-44 max-sm:pr-8 select-none">
-                <button onClick={() => setIsOpen(!isOpen)} className="max-sm:block hidden self-end">
+            <div className="bg-[var(--primary-color)] text-white flex flex-col text-sm shadow-lg font-semibold select-none">
+                <button onClick={() => setIsOpen(!isOpen)} className="block lg:hidden self-end p-4 pr-8">
                     <svg
                         className={`fill-current h-6 w-6 ${isOpen ? "hidden" : "block"}`}
                         viewBox="0 0 20 20"
@@ -108,7 +113,7 @@ const Navbar = () => {
                         <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
                     </svg>
                 </button>
-                <div className={`items-center justify-end tracking-wide relative sm:flex ${isOpen ? "block" : "hidden"}`}>
+                <div className={`lg:self-center items-center justify-end tracking-wide relative flex ${isOpen ? "flex flex-col" : "hidden lg:flex"}`}>
                     <NavItem href={"/"}>HOME</NavItem>
                     <DropDownMenu links={[
                         { name: "ABOUT COLLEGE", ref: "/about-us/about-college" },
@@ -164,7 +169,7 @@ const Navbar = () => {
                     ]}>RESEARCH</DropDownMenu>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

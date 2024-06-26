@@ -28,8 +28,8 @@ const Home_Carousel = (props: { imgSrcs: string[] }) => {
             <div className="flex transition-all duration-500 ease-in-out" style={{ transform: `translateX(${carouselSlidePoint}%)` }}>
                 {props.imgSrcs.map((src) => {
                     return (
-                        <div className="w-full flex justify-center basis-full shrink-0 h-[500px] lg:h-[500px] bg-black" key={src}>
-                            <img className="h-full" src={src}></img>
+                        <div className="w-full flex justify-center basis-full shrink-0 h-[300px] lg:h-[600px] bg-black" key={src}>
+                            <Image className="h-full object-center w-full" src={src} alt="" width={500} height={500}></Image>
                         </div>
                     )
                 })}
