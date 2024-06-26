@@ -1,9 +1,9 @@
 import { ReactElement } from "react";
 
 export default function NavItem({href, children}: {href: string, children: string | ReactElement}){
-    return <>
-        <a href={href} className="max-sm:block max-sm:px-2 hover:shadow-[inset_0_-2px_0_0_white] hover:drop-shadow-[0_0_1px_#ffffff] px-4 py-2 duration-200">
+    return <div className="w-full lg:w-fit">
+        <a href={href} className="block hover:bg-[var(--light-primary-color)] px-4 py-2 duration-200">
             {children}
         </a>
-    </>
+    </div>
 }
