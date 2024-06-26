@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root{
-    --primary-color: rgb(130 38 27);
+    --primary-color: #82261B;
+    --light-primary-color: #982B1F;
 }
 
 .College_info{
