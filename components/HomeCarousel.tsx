@@ -24,7 +24,7 @@ const Home_Carousel = (props: { imgSrcs: string[] }) => {
     })
 
     return (
-        <div>
+        <div className="relative">
             <div className="flex transition-all duration-500 ease-in-out" style={{ transform: `translateX(${carouselSlidePoint}%)` }}>
                 {props.imgSrcs.map((src) => {
                     return (
