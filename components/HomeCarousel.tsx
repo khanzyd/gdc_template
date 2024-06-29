@@ -24,12 +24,12 @@ const Home_Carousel = (props: { imgSrcs: string[] }) => {
     })
 
     return (
-        <div>
+        <div className="relative">
             <div className="flex transition-all duration-500 ease-in-out" style={{ transform: `translateX(${carouselSlidePoint}%)` }}>
                 {props.imgSrcs.map((src) => {
                     return (
                         <div className="w-full flex justify-center basis-full shrink-0 h-[300px] lg:h-[600px] bg-black" key={src}>
-                            <Image alt="img" width={1920} height={500} className=" object-cover" src={src}></Image>
+                            <Image className="h-full object-center w-full" src={src} alt="" width={500} height={500}></Image>
                         </div>
                     )
                 })}
