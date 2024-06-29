@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { MdOutlineContactSupport } from "react-icons/md";
 import SecondaryNavbarItem from "./SecondaryNavbarItem";
 import { useState } from "react";
+import Link from "next/link";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

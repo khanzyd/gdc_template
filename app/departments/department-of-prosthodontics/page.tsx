@@ -89,7 +89,7 @@ export default function Page() {
               facultyName="Dr. Kishor Madhukar Mahale"
               facultyDesignation="Professor & Head of Department, Dept. of Periodontology"
             />
-            <Faculty
+            {/* <Faculty
               profilePicSrc="/departments/department-of-prosthodontics/Ashok-Bhansali/Photo.png"
               cvSrc="/departments/department-of-prosthodontics/Ashok-Bhansali/Dr Bhansali CV WEBSITE_122707.pdf"
               facultyName="Dr. Ashok Bhansali"
@@ -130,11 +130,17 @@ export default function Page() {
               cvSrc="/departments/department-of-prosthodontics/Sharda-Shelke/Dr. sharda shelke CV.pdf"
               facultyName="Dr. Sharda P Shelke"
               facultyDesignation="Assistant Profesor, Department of Periodontology"
-            />
+            /> */}
             <Faculty
               profilePicSrc="/departments/department-of-prosthodontics/Smita-Khalikar/Photo.jpg"
               cvSrc="/departments/department-of-prosthodontics/Smita-Khalikar/DR. SMITA KHALIKAR CV MAY 2024 GOVERNMENT DENTAL COLLEGE.pdf"
               facultyName="Dr. SMITA ARUN KHALIKAR"
+              facultyDesignation="Associate Profesor, Department of Periodontology"
+            />
+            <Faculty
+              profilePicSrc="/departments/department-of-prosthodontics/Vilas-Rajguru/Photo.jpg"
+              cvSrc="/departments/department-of-prosthodontics/Vilas-Rajguru/CV dr RAJGURU for college website.pdf"
+              facultyName="Dr. Vilas L. Rajguru"
               facultyDesignation="Associate Profesor, Department of Periodontology"
             />
             <Faculty
@@ -147,12 +153,6 @@ export default function Page() {
               profilePicSrc="/departments/department-of-prosthodontics/Ulhas-Tandale/Photo.jpg"
               cvSrc="/departments/department-of-prosthodontics/Ulhas-Tandale/CV dr ULHAS for college website.pdf"
               facultyName="Dr. Ulhas Eaknathrao Tandale"
-              facultyDesignation="Associate Profesor, Department of Periodontology"
-            />
-            <Faculty
-              profilePicSrc="/departments/department-of-prosthodontics/Vilas-Rajguru/Photo.jpg"
-              cvSrc="/departments/department-of-prosthodontics/Vilas-Rajguru/CV dr RAJGURU for college website.pdf"
-              facultyName="Dr. Vilas L. Rajguru"
               facultyDesignation="Associate Profesor, Department of Periodontology"
             />
           </div>

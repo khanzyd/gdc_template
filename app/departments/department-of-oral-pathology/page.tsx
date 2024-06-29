@@ -14,13 +14,13 @@ export default function Page() {
         id="about"
         className=" w-full flex flex-col justify-center items-center py-3"
       >
-        <Image
+        {/* <Image
           src={"/departments/department-of-oral-pathology/Department-image.jpg"}
           alt="Department Image"
           width={1200}
           height={200}
           className=" rounded h-[600px] object-fit max-sm:h-[250px] "
-        />
+        /> */}
         <div className=" p-3 mt-5 text-justify text-lg shadow rounded-md  max-sm:p-4 max-sm:text-base">
           <h1 className="text-2xl font-bold text-[var(--primary-color)] text-center mb-4">
             Introduction
