@@ -16,7 +16,7 @@ const DropDownMenu = (props: { children: ReactNode, links: { name: string, ref: 
 
     return (
         <div
-            className="bg-[var(--primary-color)] w-full lg:w-fit flex relative flex-col cursor-default duration-200 px-4 py-2"
+            className="bg-[var(--primary-color)] w-full lg:w-fit flex relative flex-col cursor-default duration-200 px-4 py-4"
             onMouseEnter={() => setdropdown(true)}
             onMouseLeave={() => setdropdown(false)}
             onClick={() => setdropdown(!dropdown)}>
