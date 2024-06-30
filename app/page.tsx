@@ -58,15 +58,15 @@ export default function Home() {
                         <iframe width="590" height="332" src="https://www.youtube.com/embed/kHhK1icL3qw" title="FINAL DENTAL VIDEO" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                     </div>
                 </div>
-                <div className="flex items-center w-full mt-24">
-                    <div className="flex-1 mr-16">
-                        <img className="ml-auto w-[400px] shadow-lg rounded-box" src="/home/Dean.png"></img>
+                <div className="flex items-center w-full mt-24 gap-x-4">
+                    <div className="flex-1 ">
+                        <img className="m-auto w-[500px] shadow-lg rounded-box" src="/home/Dean.png"></img>
                     </div>
                     <div className="flex-1 flex flex-col">
                         <h1 className="text-3xl font-semibold mb-8">
                             DEAN'S MESSAGE
                         </h1>
-                        <p className="text-justify mb-4">
+                        <p className="text-justify mb-4 fontme">
                             I Dr.Maya.S.Indurkar welcome you to this prestigious Govt. Dental College and Hospital Chh.Sambhajinagar(Aurangabad), only Govt college in Marathwada region. This institution was established in the year 1982 by Govt. of Maharashtra. It is my great pleasure to extend a warm welcome to each and everyone of you.
                         </p>
                         <p className="text-justify mb-4">
