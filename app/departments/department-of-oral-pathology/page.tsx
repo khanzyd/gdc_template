@@ -53,7 +53,7 @@ export default function Page() {
         </div>
       </div> */}
       <div id="vision">
-        <div className="p-4 my-8 text-lg text-justify shadow-md rounded-sm border-t-2 border-slate-100  max-sm:p-4 max-sm:text-base">
+        <div className="p-4 my-8 text-lg text-justify shadow rounded-sm border-t-2 border-slate-100  max-sm:p-4 max-sm:text-base">
           <h1 className=" text-2xl font-semibold text-[var(--primary-color)] text-center py-1">
             Mission & Vision
           </h1>
