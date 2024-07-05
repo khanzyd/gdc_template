@@ -3,16 +3,28 @@ import React from "react";
 export default function Page() {
   let arr: React.JSX.Element[] | { src: string; title: string }[] = [
     {
-      src: "/departments/department-of-prosthodontics/Undergraduate Clinic.jpg",
-      title: "Undergraduate Clinic",
+      src: "/departments/department-of-pedodontics/img4.png",
+      title: "",
     },
     {
-      src: "/departments/department-of-prosthodontics/Post Graduate Clinic.jpg",
-      title: "Post Graduate Clinic",
+      src: "/departments/department-of-pedodontics/img2.jpg",
+      title: "",
     },
     {
-      src: "/departments/department-of-prosthodontics/Special Operatory for LASER & Implantology.jpg",
-      title: "Special Operatory for LASER & Implantology",
+      src: "/departments/department-of-pedodontics/img5.jpg",
+      title: "",
+    },
+    {
+      src: "/departments/department-of-pedodontics/img6.jpg",
+      title: "",
+    },
+    {
+      src: "/departments/department-of-pedodontics/img7.jpg",
+      title: "",
+    },
+    {
+      src: "/departments/department-of-pedodontics/img8.jpg",
+      title: "",
     },
   ];
 
